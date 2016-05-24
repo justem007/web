@@ -1,0 +1,24 @@
+<?php
+/**
+ * Shoping cart sidebar
+ *
+ * @see Mage_Checkout_Block_Cart_Sidebar
+ */
+
+?>
+
+<?php
+    $_cartQty = $this->getSummaryCount();
+    if(empty($_cartQty)) {
+        $_cartQty = 0;
+    }
+?>
+
+<a data-reveal-id="firstModal" href="#header-cart" class="skip-link skip-cart <?php if($_cartQty <= 0): ?> no-count<?php endif; ?>">
+    <span class="count"><?php echo $_cartQty; ?> item(s)</span>
+    <span class="mysubtotal"></span>
+</a>
+
+<div id="firstModal" class="reveal-modal" data-reveal class="small medium large content f-dropdown" tabindex="-1">
+	<?php echo $this->getChildHtml('minicart_content'); ?>
+</div>

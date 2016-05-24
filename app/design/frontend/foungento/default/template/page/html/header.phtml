@@ -1,0 +1,70 @@
+<?php
+/**
+ * Page html header
+ * 
+ * @author Armin Almuete
+ */
+ 
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+?>
+<?php if($this->getChildHtml('topLinks') || $this->getChildHtml('minicart_head')) : ?>
+<div class="top-links-container">
+	<div class="row">
+		<div class="hide-for-small-only small-12 medium-pull-0 medium-8 large-8 columns">
+			<?php echo $this->getChildHtml('topLinks') ?>
+		</div>
+		<div class="minicart-container small-text-center hide-for-small-only  small-12 medium-text-right  medium-4 large-text-right large-4 columns">
+			<?php //echo $this->getChildHtml('store_language') ?>
+			<div class="minicart-head-container">
+				<?php echo $this->getChildHtml('minicart_head') ?>
+			</div>
+		</div>
+	</div>
+</div>
+<?php endif; ?>
+
+<div class="header-container row">
+    <div class="header small-12 medium-12 large-12 columns">
+        <?php if ($this->getIsHomePage()):?>
+			<h1 class="logo text-center small-12 medium-12 large-12 columns">
+				<a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo">
+					<img data-interchange="[<?php echo $this->getLogoSrc() ?>, (small)], [<?php echo $this->getLogoSrc() ?>, (medium)], [<?php echo $this->getLogoSrc() ?>, (large)]" />
+				</a>	
+			</h1>
+        <?php else:?>
+			<h1 class="logo text-center small-12 medium-12 large-12 columns">
+				<a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo">
+					<img data-interchange="[<?php echo $this->getLogoSrc() ?>, (small)], [<?php echo $this->getLogoSrc() ?>, (medium)], [<?php echo $this->getLogoSrc() ?>, (large)]" />
+				</a>	
+			</h1>        
+        <?php endif?>
+        
+	
+		<div class="logo text-center small-12 medium-12 large-12 columns">
+			<?php if(Mage::getSingleton("customer/session")->isLoggedIn()) : ?>
+				<p class="welcome-msg"><?php echo $this->getChildHtml('welcome') ?> <?php echo $this->getAdditionalHtml() ?></p>
+			<?php endif; ?>
+		</div>
+		
+        <div class="quick-access large-12 columns">
+            
+        </div>
+        
+        <?php echo $this->getChildHtml('topContainer'); ?>
+    </div>   
+</div>
+
+<?php if($this->getChildHtml('topMenu') || $this->getChildHtml('topSearch')) : ?>
+<div class="nav-container row">
+	<div class="top-menu-container small-12 medium-12 large-8 columns">
+		<?php echo $this->getChildHtml('topMenu'); ?>
+	</div>
+	
+	<div class="hide-for-small-only top-search-container small-12 medium-12  large-4 columns">
+		<?php echo $this->getChildHtml('topSearch') ?>
+	</div>
+</div>
+<?php endif; ?>
+<br/>

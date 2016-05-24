@@ -1,0 +1,1 @@
+../../../../../../.modman/easytabs/skin/frontend/base/default/js/tm/easytabs.js

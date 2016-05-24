@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MagicentoSettings">
+    <option name="pathToMage" value="$PROJECT_DIR$/app/Mage.php" />
+    <option name="enabled" value="false" />
+    <option name="phpEnabled" value="true" />
+    <option name="pathToPhp" value="/usr/bin" />
+    <option name="urlToMagento" value="http://mage.dev" />
+    <option name="useVarDump" value="false" />
+    <option name="layoutEnabled" value="false" />
+    <option name="packages" value="" />
+    <option name="themes" value="" />
+    <option name="basicAuthUsername" value="admin" />
+    <option name="basicAuthPassword" value="ric3791@" />
+    <option name="pathsToMagentoSerialized" value="$PROJECT_DIR$" />
+    <option name="pathToMagentoForNewFiles" value="$PROJECT_DIR$" />
+    <option name="modmanProjectChecked" value="true" />
+  </component>
+</project>

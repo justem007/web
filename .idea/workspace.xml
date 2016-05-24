@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d73adcfa-41d0-4b75-a976-ddda55567869" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/images/bkg_rating.gif" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/images/bkg_rating.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/images/media/logo.png" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/images/media/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/.gitignore" afterPath="$PROJECT_DIR$/.modman/easytabs/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Adminhtml/Edit.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Adminhtml/Edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Adminhtml/Edit/Form.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Adminhtml/Edit/Form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Adminhtml/Edit/Tab/Main.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Adminhtml/Edit/Tab/Main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Adminhtml/Edit/Tabs.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Adminhtml/Edit/Tabs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Adminhtml/List.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Adminhtml/List.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Adminhtml/List/Grid.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Adminhtml/List/Grid.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Adminhtml/Tab/Options.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Adminhtml/Tab/Options.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Attribute.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Attribute.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Cms.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Cms.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Html.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Product/Additional.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Product/Additional.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Product/Description.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Product/Description.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Product/Related.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Product/Related.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Product/Review.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Product/Review.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Product/Tags.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Product/Tags.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Product/Upsell.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Product/Upsell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Template.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tab/Template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tabs.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Block/Tabs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Helper/Data.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Helper/Data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Model/Config.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Model/Config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Model/Config/Collection.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Model/Config/Collection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Model/Config/Status.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Model/Config/Status.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Model/Config/Tabs.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Model/Config/Tabs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Model/Product/Attribute/Collection.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Model/Product/Attribute/Collection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Model/Tabs.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Model/Tabs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Model/Template/Filter.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/Model/Template/Filter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/controllers/Adminhtml/Easytabs/IndexController.php" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/controllers/Adminhtml/Easytabs/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/etc/adminhtml.xml" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/etc/adminhtml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/etc/config.xml" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/etc/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/etc/easytabs.xml" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/etc/easytabs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/etc/system.xml" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/etc/system.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/etc/widget.xml" afterPath="$PROJECT_DIR$/.modman/easytabs/app/code/community/TM/EasyTabs/etc/widget.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/design/adminhtml/default/default/layout/tm/easytabs.xml" afterPath="$PROJECT_DIR$/.modman/easytabs/app/design/adminhtml/default/default/layout/tm/easytabs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/design/frontend/base/default/layout/tm/easytabs.xml" afterPath="$PROJECT_DIR$/.modman/easytabs/app/design/frontend/base/default/layout/tm/easytabs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/design/frontend/base/default/template/tm/easytabs/tab/catalog/product/attribute.phtml" afterPath="$PROJECT_DIR$/.modman/easytabs/app/design/frontend/base/default/template/tm/easytabs/tab/catalog/product/attribute.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/design/frontend/base/default/template/tm/easytabs/tab/catalog/product/related.phtml" afterPath="$PROJECT_DIR$/.modman/easytabs/app/design/frontend/base/default/template/tm/easytabs/tab/catalog/product/related.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/design/frontend/base/default/template/tm/easytabs/tab/catalog/product/view/attributes.phtml" afterPath="$PROJECT_DIR$/.modman/easytabs/app/design/frontend/base/default/template/tm/easytabs/tab/catalog/product/view/attributes.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/design/frontend/base/default/template/tm/easytabs/tab/catalog/product/view/description.phtml" afterPath="$PROJECT_DIR$/.modman/easytabs/app/design/frontend/base/default/template/tm/easytabs/tab/catalog/product/view/description.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/design/frontend/base/default/template/tm/easytabs/tab/cms.phtml" afterPath="$PROJECT_DIR$/.modman/easytabs/app/design/frontend/base/default/template/tm/easytabs/tab/cms.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/design/frontend/base/default/template/tm/easytabs/tab/review/product/view/list.phtml" afterPath="$PROJECT_DIR$/.modman/easytabs/app/design/frontend/base/default/template/tm/easytabs/tab/review/product/view/list.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/design/frontend/base/default/template/tm/easytabs/tab/tag/product/list.phtml" afterPath="$PROJECT_DIR$/.modman/easytabs/app/design/frontend/base/default/template/tm/easytabs/tab/tag/product/list.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/design/frontend/base/default/template/tm/easytabs/tabs.phtml" afterPath="$PROJECT_DIR$/.modman/easytabs/app/design/frontend/base/default/template/tm/easytabs/tabs.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/etc/modules/TM_EasyTabs.xml" afterPath="$PROJECT_DIR$/.modman/easytabs/app/etc/modules/TM_EasyTabs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/locale/en_US/TM_EasyTabs.csv" afterPath="$PROJECT_DIR$/.modman/easytabs/app/locale/en_US/TM_EasyTabs.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/locale/es_ES/TM_EasyTabs.csv" afterPath="$PROJECT_DIR$/.modman/easytabs/app/locale/es_ES/TM_EasyTabs.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/locale/fr_FR/TM_EasyTabs.csv" afterPath="$PROJECT_DIR$/.modman/easytabs/app/locale/fr_FR/TM_EasyTabs.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/locale/it_IT/TM_EasyTabs.csv" afterPath="$PROJECT_DIR$/.modman/easytabs/app/locale/it_IT/TM_EasyTabs.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/locale/nl_NL/TM_EasyTabs.csv" afterPath="$PROJECT_DIR$/.modman/easytabs/app/locale/nl_NL/TM_EasyTabs.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/app/locale/pt_PT/TM_EasyTabs.csv" afterPath="$PROJECT_DIR$/.modman/easytabs/app/locale/pt_PT/TM_EasyTabs.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/build/README.md" afterPath="$PROJECT_DIR$/.modman/easytabs/build/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/build/gulpfile.js" afterPath="$PROJECT_DIR$/.modman/easytabs/build/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/build/package.json" afterPath="$PROJECT_DIR$/.modman/easytabs/build/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/composer.json" afterPath="$PROJECT_DIR$/.modman/easytabs/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/modman" afterPath="$PROJECT_DIR$/.modman/easytabs/modman" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/skin/frontend/base/default/css/tm/easytabs.css" afterPath="$PROJECT_DIR$/.modman/easytabs/skin/frontend/base/default/css/tm/easytabs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/easytabs/skin/frontend/base/default/js/tm/easytabs.js" afterPath="$PROJECT_DIR$/.modman/easytabs/skin/frontend/base/default/js/tm/easytabs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/.gitattributes" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/.gitignore" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/CHANGELOG.md" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/LICENSE" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/code/community/Meanbee/Tinymce5/Helper/Data.php" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/code/community/Meanbee/Tinymce5/Helper/Data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/code/community/Meanbee/Tinymce5/etc/config.xml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/code/community/Meanbee/Tinymce5/etc/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/code/community/Meanbee/Tinymce5/etc/system.xml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/code/community/Meanbee/Tinymce5/etc/system.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/adminhtml/default/default/layout/meanbee/tinymce5.xml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/adminhtml/default/default/layout/meanbee/tinymce5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/layout/local.xml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/layout/local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/catalog/product/list.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/catalog/product/list.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/catalog/product/list/related.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/catalog/product/list/related.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/catalog/product/list/toolbar.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/catalog/product/list/toolbar.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/catalog/product/list/upsell.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/catalog/product/list/upsell.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/catalog/product/view.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/catalog/product/view.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/catalog/product/view/addtocart.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/catalog/product/view/addtocart.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/catalog/product/view/media.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/catalog/product/view/media.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/checkout/cart.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/checkout/cart.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/checkout/cart/crosssell.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/checkout/cart/crosssell.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/checkout/cart/item/default.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/checkout/cart/item/default.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/core/inchoo_global_messages.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/core/inchoo_global_messages.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/page/3columns.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/page/3columns.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/page/html/footer.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/page/html/footer.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/page/html/header.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/page/html/header.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/page/html/pager.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/page/html/pager.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/persistent/checkout/onepage/login.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/persistent/checkout/onepage/login.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/persistent/customer/form/login.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/persistent/customer/form/login.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/review/helper/summary_short.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/review/helper/summary_short.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/wishlist/item/column/cart.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/wishlist/item/column/cart.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/wishlist/view.phtml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/design/frontend/waterlee-boilerplate/default/template/wishlist/view.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/etc/modules/JakeSharp_Waterlee.xml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/etc/modules/JakeSharp_Waterlee.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/etc/modules/Meanbee_Tinymce5.xml" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/app/etc/modules/Meanbee_Tinymce5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/composer.json" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/js/meanbee/tinymce5/setup.js" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/js/meanbee/tinymce5/setup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/modman" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/modman" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/readme.md" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/bower.json" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/css/styles.css" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/gulpfile.js" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/js/script.js" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/package.json" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/js/app.js" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/js/elevatezoom/jquery.elevatezoom.js" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/js/elevatezoom/jquery.elevatezoom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/js/foundation.equalizer.js" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/js/foundation.equalizer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/_foundation.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/_foundation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/_settings.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/_settings.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_account.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_account.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_alerts.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_alerts.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_breadcrumbs.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_breadcrumbs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_browser.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_browser.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_buttons.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_cart.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_cart.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_catalog.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_catalog.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_checkout.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_checkout.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_cms.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_cms.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_footer.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_globals.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_globals.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_grid.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_grid.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_header.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_img.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_img.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_labels.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_labels.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_offcanvas.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_offcanvas.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_product.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_product.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_tables.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_tables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_top-cart.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_top-cart.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/styles.scss" afterPath="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/styles.scss" />
+    </list>
+    <ignored path="web.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/dev/tests/functional/composer.json</pharConfigPath>
+    <pharPath>/usr/bin/compose</pharPath>
+    <phpPath>/usr/bin/php</phpPath>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="web" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="header.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/page/html/header.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="price.phtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/price.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="75" column="48" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_grid.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_grid.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6968">
+              <caret line="268" column="40" selection-start-line="268" selection-start-column="40" selection-end-line="268" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="magicento_module" />
+        <option value="magicento_collection" />
+        <option value="magicento_helper" />
+        <option value="magicento_installer" />
+        <option value="magicento_model" />
+        <option value="magicento_resource" />
+        <option value="magicento_config" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.modman/waterlee-boilerplate" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dev/tests/functional/bootstrap.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/teste/Ricardo_Slider.php" />
+        <option value="$PROJECT_DIR$/teste/Ricardo.php" />
+        <option value="$PROJECT_DIR$/teste/RicardoCollection.php" />
+        <option value="$PROJECT_DIR$/teste/RicardoModel.php" />
+        <option value="$PROJECT_DIR$/.idea/magicento/scripts/ModuleNovo.php" />
+        <option value="$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/gulpfile.js" />
+        <option value="$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/css/styles.css" />
+        <option value="$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/_settings.scss" />
+        <option value="$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/css/styles.css" />
+        <option value="$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/_foundation.scss" />
+        <option value="$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_buttons.scss" />
+        <option value="$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/page/html/pager.phtml" />
+        <option value="$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_cms.scss" />
+        <option value="$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/page/html/footer.phtml" />
+        <option value="$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_header.scss" />
+        <option value="$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/styles.scss" />
+        <option value="$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/page/1column.phtml" />
+        <option value="$PROJECT_DIR$/skin/frontend/default/default/css/styles.css" />
+        <option value="$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_globals.scss" />
+        <option value="$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/page/3columns.phtml.copy" />
+        <option value="$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/page/3columns.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/list/toolbar.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/catalog/product/list.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/category/view.phtml" />
+        <option value="$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_cart.scss" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/marketplace/catalog/product/view.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/review/helper/summary.phtml" />
+        <option value="$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_footer.scss" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/view/addtocart.phtml" />
+        <option value="$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_grid.scss" />
+        <option value="$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_product.scss" />
+        <option value="$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/page/html/header.phtml" />
+        <option value="$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_catalog.scss" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/catalog/product/edit.phtml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7">
+    <include_path>
+      <path value="." />
+      <path value="/usr/share/php" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/magento/mtf" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/phpunit/phpunit-selenium" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/composer" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/netwing/selenium-server-standalone" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/phpunit/dbunit" />
+      <path value="$PROJECT_DIR$/dev/tests/functional/vendor/phpunit/php-invoker" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="130" />
+    <option name="y" value="924" />
+    <option name="width" value="1366" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Jscs</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../rossinaestamparia.com.br/web" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="configurable.Global.libraries.is.expanded" value="true" />
+    <property name="configurable.Project.libraries.is.expanded" value="true" />
+    <property name="configurable.Module.libraries.is.expanded" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="SearchEverywhereHistoryKey" value="app/design/adminhtml/default/template/catalog/product/edit.phtml&#9;FILE&#9;file:///var/www/magento1.com.br/web/app/design/adminhtml/default/default/template/catalog/product/edit.phtml&#10;sidebar.phtml&#9;FILE&#9;file:///var/www/magento1.com.br/web/app/design/frontend/base/default/template/checkout/cart/sidebar.phtml&#10;view.phtml&#9;FILE&#9;file:///var/www/magento1.com.br/web/app/design/frontend/base/default/template/catalog/layer/view.phtml&#10;price.phtml&#9;FILE&#9;file:///var/www/magento1.com.br/web/app/design/frontend/base/default/template/catalog/product/price.phtml&#10;toolbar.phtml&#9;FILE&#9;file:///var/www/magento1.com.br/web/app/design/frontend/base/default/template/catalog/product/list/toolbar.phtml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/page" />
+      <recent name="$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/bower_components" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/page/html" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/foungento/default/template/page/html" />
+      <recent name="$PROJECT_DIR$/skin/frontend/base/default/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d73adcfa-41d0-4b75-a976-ddda55567869" name="Default" comment="" />
+      <created>1460487753958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1460487753958</updated>
+      <workItem from="1460487755537" duration="1051000" />
+      <workItem from="1460558953545" duration="39000" />
+      <workItem from="1461667410431" duration="599000" />
+      <workItem from="1461669516575" duration="5185000" />
+      <workItem from="1461763405244" duration="4060000" />
+      <workItem from="1461846805318" duration="4388000" />
+      <workItem from="1461853028496" duration="229000" />
+      <workItem from="1461853422966" duration="848000" />
+      <workItem from="1461863345238" duration="1308000" />
+      <workItem from="1461927336924" duration="9052000" />
+      <workItem from="1461967026831" duration="68000" />
+      <workItem from="1461967132083" duration="69000" />
+      <workItem from="1461967236682" duration="608000" />
+      <workItem from="1462186714003" duration="1926000" />
+      <workItem from="1462189737051" duration="113000" />
+      <workItem from="1462189889177" duration="3300000" />
+      <workItem from="1462273739214" duration="2267000" />
+      <workItem from="1462382711395" duration="5031000" />
+      <workItem from="1462467650087" duration="29000" />
+      <workItem from="1462467725773" duration="1273000" />
+      <workItem from="1462972633734" duration="3631000" />
+      <workItem from="1462985214089" duration="7316000" />
+      <workItem from="1463071353532" duration="6673000" />
+      <workItem from="1463136709292" duration="9079000" />
+      <workItem from="1463404462316" duration="15208000" />
+      <workItem from="1463489658433" duration="169000" />
+      <workItem from="1463489872750" duration="11776000" />
+      <workItem from="1463569367876" duration="3464000" />
+      <workItem from="1463576509935" duration="18698000" />
+      <workItem from="1463654108422" duration="4508000" />
+      <workItem from="1463742761511" duration="215000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="122180000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="130" y="924" width="1366" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32492998" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2526475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Script Monkey" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="MagicentoScripts" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_browser.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_breadcrumbs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_account.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/default/default/css/oauth-simple.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-936">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/default/default/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="436" column="68" selection-start-line="436" selection-start-column="68" selection-end-line="436" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/_foundation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="1017" column="33" selection-start-line="1017" selection-start-column="31" selection-end-line="1017" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/bower_components/foundation/css/foundation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/catalog/product/list/related.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/layer/state.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/checkout/cart.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/marketplace/checkout/cart/item/default.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/bower_components/foundation/scss/foundation/components/_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="292" column="1" selection-start-line="292" selection-start-column="1" selection-end-line="292" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/gerencianet/billet/form.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1716">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/page/html/pager.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-884">
+          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.modman/waterlee-boilerplate/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="11261" column="29" selection-start-line="11261" selection-start-column="29" selection-end-line="11261" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/page/3columns.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="63" column="67" selection-start-line="63" selection-start-column="67" selection-end-line="63" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/page/3columns.phtml.copy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="77" column="68" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_globals.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/rwd/default/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="2179" column="14" selection-start-line="2179" selection-start-column="14" selection-end-line="2179" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_img.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errors/default/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="189" column="1" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/catalog/product/list.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_cart.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/bower_components/foundation/scss/foundation/components/_pricing-tables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="143" column="31" selection-start-line="143" selection-start-column="31" selection-end-line="143" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/bower_components/foundation/scss/foundation/components/_labels.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/list/toolbar.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/category/view.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/layer/view.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/view/options/js.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1213">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/view/options/wrapper.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/view/options/type/file.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-265">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/view/options/type/text.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/view/options/type/default.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/view/options/type/select.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/review/helper/summary.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/marketplace/catalog/product/view.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/checkout/cart/sidebar.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/page/html/head.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/view/price_clone.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/view/options/wrapper/bottom.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/view/addtocart.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6968">
+          <caret line="268" column="40" selection-start-line="268" selection-start-column="40" selection-end-line="268" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/waterlee-boilerplate/default/template/page/html/header.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/catalog/product/edit.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="134" column="2" selection-start-line="134" selection-start-column="2" selection-end-line="134" selection-end-column="2" />
+          <folding>
+            <marker date="1463685230195" expanded="true" signature="5224:5304" placeholder="SELECT * FRO... catalog_product_entity" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_product.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="203" column="4" selection-start-line="203" selection-start-column="4" selection-end-line="203" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/waterlee-boilerplate/default/src/scss/custom/_catalog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="156" column="1" selection-start-line="156" selection-start-column="1" selection-end-line="156" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/price.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="75" column="48" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

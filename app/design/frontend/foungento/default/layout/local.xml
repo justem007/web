@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Foungento responsive layout
+ *
+ * @author Armin Almuete
+ *
+ */
+-->
+<layout version="0.1.0">
+    <default>
+		<remove name="left.permanent.callout"/>
+		<remove name="tags_popular"/>
+		
+		<reference name="head">
+			<action method="addItem"><type>skin_js</type><name>js/jquery.1.8.3.min.js</name><params/></action>
+			<action method="addItem"><type>skin_js</type><name>js/noConflict.js</name><params/></action>
+			<action method="addItem"><type>skin_js</type><name>js/foundation.min.js</name><params/></action>
+			<action method="addItem"><type>skin_js</type><name>js/foundation.interchange.js</name><params/></action>
+			<action method="addItem"><type>skin_js</type><name>js/responsive-tables.js</name><params/></action>
+			<action method="addCss"><stylesheet>css/reset.css</stylesheet></action>
+			<action method="addCss"><stylesheet>css/app.css</stylesheet></action>
+	        <action method="addCss"><stylesheet>css/styles.css</stylesheet></action>
+			
+			<action method="addCss"><stylesheet>css/responsive-tables.css</stylesheet></action>
+
+
+            <action method="addItem"><type>skin_js</type><name>js/modernizr.js</name></action>
+			<action method="addItem"><type>skin_js</type><name>js/minicart.js</name></action>
+			<action method="addItem"><type>skin_js</type><name>js/custom.js</name></action>
+
+			<block type="core/text" name="zurb.foundation">
+				<action method="setText">
+<text>
+<![CDATA[
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,900,700italic,700,500,500italic,400italic,300,300italic,100italic,100,900italic' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		jQuery(document).foundation();
+		jQuery(".messages").wrap(function() {
+			return "<div class='row'><div class='large-12 columns'></div></div>";
+		});
+		
+		/*jQuery("body").css('background-color', '#333');*/
+		/*jQuery("body").find('.button').addClass('radius tiny ');*/
+		
+		jQuery("button").each(function() {
+			jQuery(this).addClass("radius tiny button");
+		});
+		
+		/* BACKGROUND */
+		/*jQuery(".columns").each(function() {
+		  var hue = 'rgb(' + (Math.floor((256-199)*Math.random()) + 200) + ',' + (Math.floor((256-199)*Math.random()) + 200) + ',' + (Math.floor((256-199)*Math.random()) + 200) + ')';
+		  jQuery(this).css("background-color", hue);
+		  jQuery(this).css("margin","0px 0px");
+		});*/
+		
+		jQuery("#header-cart").hide();
+		jQuery(".mysubtotal").html(jQuery(".minicart-wrapper .subtotal span.price").html());
+		
+		/*jQuery("table").addClass("responsive");*/
+		
+		var s = jQuery("#stiky-left");
+		var pos = s.position();					   
+		jQuery(window).scroll(function() {
+			var windowpos = jQuery(window).scrollTop();
+			if (windowpos >= s.data('boundaries')) {
+				s.addClass("stick");
+			} else {
+				s.removeClass("stick");	
+			}
+		});
+	});
+</script>
+]]>
+</text>
+				</action>
+			</block>
+
+		
+        </reference>
+        
+        <reference name="header">
+            <block type="checkout/cart_minicart" name="minicart_head" template="checkout/cart/minicart.phtml" before="-">
+                <block type="checkout/cart_sidebar" name="minicart_content" template="checkout/cart/minicart/items.phtml">
+                    <action method="addItemRender"><type>default</type><block>checkout/cart_item_renderer</block><template>checkout/cart/minicart/default.phtml</template></action>
+                    <action method="addItemRender"><type>simple</type><block>checkout/cart_item_renderer</block><template>checkout/cart/minicart/default.phtml</template></action>
+                    <action method="addItemRender"><type>grouped</type><block>checkout/cart_item_renderer_grouped</block><template>checkout/cart/minicart/default.phtml</template></action>
+                    <action method="addItemRender"><type>configurable</type><block>checkout/cart_item_renderer_configurable</block><template>checkout/cart/minicart/default.phtml</template></action>
+
+                    <block type="core/text_list" name="cart_sidebar.cart_promotion" as="cart_promotion" translate="label" module="checkout">
+                        <label>Mini-cart promotion block</label>
+                    </block>
+                    <block type="core/text_list" name="cart_sidebar.extra_actions" as="extra_actions" translate="label" module="checkout">
+                        <label>Shopping Cart Sidebar Extra Actions</label>
+                    </block>
+                </block>
+            </block>
+        </reference>
+    </default>
+    
+    <catalog_category_layered>
+		<reference name="head">
+			<action method="addItem"><type>skin_js</type><name>js/jquery_plugins/jquery.infinitescroll.js</name><params/></action>
+			<action method="addItem"><type>skin_js</type><name>js/jquery_plugins/manual-trigger.js</name><params/></action>
+			<action method="addItem"><type>skin_js</type><name>js/inFiniteScroll.js</name><params/></action>
+		</reference>
+		<reference name="root">
+            <action method="setTemplate"><template>page/2columns-left.phtml</template></action>
+        </reference>
+    </catalog_category_layered>
+
+    <catalog_category_default>
+		<reference name="head">
+    		<action method="addItem"><type>skin_js</type><name>js/jquery_plugins/jquery.infinitescroll.js</name><params/></action>
+    		<action method="addItem"><type>skin_js</type><name>js/inFiniteScroll.js</name><params/></action>
+    	</reference>
+    </catalog_category_default>
+    
+    <catalog_category_view>
+		<reference name="root">
+            <action method="setTemplate"><template>page/2columns-left.phtml</template></action>
+        </reference>
+    </catalog_category_view>
+    
+	<catalog_product_view>
+		<reference name="root">
+            <action method="setTemplate"><template>page/1column.phtml</template></action>
+        </reference>
+    </catalog_product_view>
+    
+    <catalogsearch_result_index>
+		<reference name="root">
+            <action method="setTemplate"><template>page/2columns-left.phtml</template></action>
+        </reference>
+    </catalogsearch_result_index>
+    
+    <tag_product_list>
+		<reference name="root">
+            <action method="setTemplate"><template>page/2columns-left.phtml</template></action>
+        </reference>
+    </tag_product_list>
+    
+
+	<checkout_onepage_index>
+		<remove name="top.menu"/>
+		<remove name="top.search"/>
+		<remove name="footer"/>
+		<remove name="top.links"/>
+		
+		<!-- 
+		<remove name="top.search"/>
+		<remove name="top.links"/>
+		<remove name="top.menu"/>
+		<remove name="welcome"/>
+		<remove name="store_language"/>
+		-->
+		<reference name="root">
+            <action method="setTemplate"><template>page/1column.phtml</template></action>
+        </reference>
+	</checkout_onepage_index>
+
+	<checkout_cart_index translate="label">
+        <reference name="root">
+            <action method="setTemplate"><template>page/1column.phtml</template></action>
+        </reference>
+    </checkout_cart_index>
+</layout>

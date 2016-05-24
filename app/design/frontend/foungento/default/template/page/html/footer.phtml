@@ -1,0 +1,104 @@
+<?php
+/**
+ * Page html footer
+ * 
+ * @author Armin Almuete
+ */
+ 
+/**
+ * @var Mage_Page_Block_Html_Footer $this
+ */
+?>
+<div class="footer-container">
+	<div class="row">
+		<div class="links small-12 medium-6 large-3 columns">
+			<ul class="resize-activation accordion" data-accordion>
+				<li class="accordion-navigation">
+					<a href="#information"><h4>Information</h4></a>
+					<div id="information" class="content">
+						<ul class="links">
+							<li><a title="Site Map" href="#">About Us</a></li>
+							<li><a title="Search Terms" href="#">Delivery Information</a></li>
+							<li><a title="Advanced Search" href="#">Privacy Policy</a></li>
+							<li><a title="Orders and Returns" href="#">Free Delivery</a></li>
+							<li><a title="Contact Us" href="#">Terms and Condition</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="links small-12 medium-6 large-3 columns">
+			<ul class="resize-activation accordion" data-accordion>
+				<li class="accordion-navigation">
+					<a href="#customer-service"><h4>Customer Service</h4></a>
+					<div id="customer-service" class="content">
+						<ul class="links">
+							<li><a title="Site Map" href="#">Customer Assistance</a></li>
+							<li><a title="Search Terms" href="#">Net Transaction</a></li>
+							<li><a title="Advanced Search" href="#">Delivery Information</a></li>
+							<li><a title="Orders and Returns" href="#">Product Information</a></li>
+							<li><a title="Contact Us" href="#">International Shipping</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="links small-12 medium-6 large-3 columns">
+			<ul class="resize-activation accordion" data-accordion>
+				<li class="accordion-navigation">
+					<a href="#my-account"><h4>My Account</h4></a>
+					<div id="my-account" class="content">
+						<ul class="links">
+							<li><a title="Site Map" href="#">My Order</a></li>
+							<li><a title="Search Terms" href="#">My Credit slips</a></li>
+							<li><a title="Advanced Search" href="#">My Addresses</a></li>
+							<li><a title="Orders and Returns" href="#">My Wishlist</a></li>
+							<li><a title="Contact Us" href="#">My Personal Information.</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="links small-12 medium-6 large-3 columns">
+			<ul class="resize-activation accordion" data-accordion>
+				<li class="accordion-navigation">
+					<a href="#contact-us"><h4>Contact Us</h4></a>
+					<div id="contact-us" class="content">
+						<ul class="links">
+							<li>
+								<div class="clearfix">
+									<span class="address-icon"><img src="<?php echo $this->getSkinUrl('images/address_icon.png');?>" />  </span>
+									<span class="address-text">Lorem 19 Ipsum Building, Dolor City Cyberpark,  Piksum, Pakar City 1110,  Bagyo City, Philippines</span>
+								</div>
+							</li>
+							<li><img src="<?php echo $this->getSkinUrl('images/phone_icon.png');?>">+61 (2) 8484 0400</li>
+							<li><img src="<?php echo $this->getSkinUrl('images/email_icon.png');?>"><a title="Advanced Search" href="#">foungento@gmail.com</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="trusted-payment-gateway small-text-center medium-12 medium-text-left large-12 large-text-left columns">
+			<img width="40" src="<?php echo $this->getSkinUrl('images/100x50.gif')?>" />&nbsp;&nbsp;
+			<img width="40" src="<?php echo $this->getSkinUrl('images/100x50.gif')?>" />&nbsp;&nbsp;
+			<img width="40" src="<?php echo $this->getSkinUrl('images/100x50.gif')?>" />
+		</div>
+	</div>
+</div>
+<div class="copy-right-container">
+	<div class="row">
+		<div class="small-12 small-text-center medium-3 medium-uncentered large-3 large-text-left large-uncentered columns">
+			<img src="<?php echo $this->getSkinUrl('images/130x50.gif')?>" />
+		</div>
+		<div class="small-12 small-text-center medium-6 medium-uncentered large-6 large-uncentered columns">
+			<p class="text-center copy-right">
+			<?php echo $this->getCopyright() ?>
+			</p>
+		</div>
+		<div class="small-12 small-text-center medium-3 medium-uncentered large-3 large-uncentered social-link small-text-center medium-text-right large-text-right columns">
+			<img src="<?php echo $this->getSkinUrl('images/20x20.gif')?>" />
+			<img src="<?php echo $this->getSkinUrl('images/20x20.gif')?>" />
+		</div>
+	</div>
+</div>
+

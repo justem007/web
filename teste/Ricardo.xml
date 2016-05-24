@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <RicardoModel>
+            <version>1.0.0</version>
+        </RicardoModel>
+    </modules>
+    <global>
+        <models>
+            <Ricardo>
+                <class>RicardoModel_Model</class>
+                <resourceModel>Ricardo_resource</resourceModel>
+            </Ricardo>
+            <Ricardo_resource>
+                <class>RicardoModel_Model_Resource</class>
+            </Ricardo_resource>
+        </models>
+        <blocks>
+            <Ricardo>
+                <class>RicardoModel_Block</class>
+            </Ricardo>
+        </blocks>
+        <helpers>
+            <Ricardo>
+                <class>RicardoModel_Helper</class>
+            </Ricardo>
+        </helpers>
+        <resources>
+            <Ricardo_setup>
+                <setup>
+                    <module>RicardoModel</module>
+                </setup>
+            </Ricardo_setup>
+        </resources>
+    </global>
+</config>

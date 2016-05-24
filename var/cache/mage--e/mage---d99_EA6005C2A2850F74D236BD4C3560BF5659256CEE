@@ -1,0 +1,169 @@
+<div class="footer-container">
+    <div class="footer">
+
+        <h2 style="text-align: center;">Nossos contatos</h2>
+<div class="small-12 medium-6 large-3 columns">
+<ul class="side-nav">
+<li><a href="tel:21-3245-9607">(21) 3245-9607</a> / <a href="tel:21-2602-7536">2602-7536</a></li>
+</ul>
+</div>
+<div class="small-12 medium-6 large-3 columns">
+<ul class="side-nav">
+<li><a class="iframe" href="form.php"> Agendar Visita</a></li>
+</ul>
+</div>
+<div class="small-12 medium-6 large-3 columns">
+<ul class="side-nav">
+<li><a href="mailto:conatato@rossinaestamparia.com.br">contato@rossinaestamparia.com.br</a></li>
+</ul>
+</div>
+<div class="small-12 medium-6 large-3 columns">
+<ul class="side-nav">
+<li><a href="skype:Rossina Estamparia"> Rossina Estamparia<br /><br /></a></li>
+</ul>
+</div>
+<hr />
+<div class="small-12 medium-12 large-12 columns">
+<ul class="side-nav">
+<li>
+<h5 class="text-center subheader">Atendemos de segunda a sexta de 8:00 as 17:00 hrs - Entregamos em todo Brasil</h5>
+</li>
+</ul>
+</div>
+<div class="small-12 medium-12 large-12 columns">
+<ul class="side-nav">
+<li>
+<h3 class="text-center subheader">Uma empresa 100% Brasileira&nbsp;<img title="" src="https://rossinaestamparia.com.br/images/brasil.jpg" alt="" width="30" />&nbsp;100% Ecologicamente correto&nbsp;<img title="" src="https://rossinaestamparia.com.br/images/ecologicamente-correto.jpg" alt="" width="30" /></h3>
+</li>
+</ul>
+</div>
+<div class="small-12 medium-12 large-12 columns">
+<ul class="side-nav">
+<li>
+<h4 class="text-center subheader"><span>Atendemos somente pessoas f&iacute;sicas e jur&iacute;dicas que est&atilde;o iniciando, produzam ou revendam produtos.</span><br /><span>N&atilde;o atendemos particulares&nbsp;</span><span class="consumidor">("consumidor final")</span><span>&nbsp;.</span></h4>
+</li>
+</ul>
+</div>
+<hr />
+<div class="small-12 medium-6 large-6 columns">
+<ul class="side-nav">
+<li>
+<h3>Dados da Empresa</h3>
+</li>
+<li>Endere&ccedil;o: Avenida Presidente Roosevelt, 130 parte</li>
+<li>Vista Alegre - S&atilde;o Gon&ccedil;alo</li>
+<li>Estado: Rio de Janeiro</li>
+<li>Cep: 24722-070</li>
+<li>CNPJ: 05.035.305/0001-52</li>
+</ul>
+</div>
+<div class="small-12 medium-6 large-6 columns">
+<ul class="side-nav">
+<li class="buttonn"><a> LINKS SITE </a></li>
+<li><a href="index.php">Home</a></li>
+<li><a href="camisetas.php">Camisas</a></li>
+<li><a href="tecidos.php">Tecidos</a></li>
+<li><a href="servicos.php">Servi&ccedil;os</a></li>
+<li><a href="logistica.php">Log&iacute;stica</a></li>
+<li><a href="videos-calandra-plotter-kornit-digital.php">V&iacute;deos</a></li>
+<li><a href="estampas-tecidos.php">Estampas para tecidos</a></li>
+<li><a href="estampas-camisetas.php">Estampas para camisetas</a></li>
+</ul>
+</div>
+<hr />
+<div class="small-12 medium-6 large-2 columns">
+<ul class="side-nav">
+<li class="buttonn"><a> LINKS SITE </a></li>
+<li><a href="index.php">Home</a></li>
+<li><a href="camisetas.php">Camisas</a></li>
+<li><a href="tecidos.php">Tecidos</a></li>
+<li><a href="servicos.php">Servi&ccedil;os</a></li>
+<li><a href="logistica.php">Log&iacute;stica</a></li>
+<li><a href="videos-calandra-plotter-kornit-digital.php">V&iacute;deos</a></li>
+<li><a href="estampas-tecidos.php">Estampas para tecidos</a></li>
+<li><a href="estampas-camisetas.php">Estampas para camisetas</a></li>
+</ul>
+</div>
+<div class="links small-12 medium-6 large-4 columns">
+<ul class="side-nav">
+<li class="buttonn"><a> LINKS CAMISETAS </a></li>
+<li><a href="camisetas.php#camisetaA">Camiseta b&aacute;sica masculina - 100% algod&atilde;o - 30.1</a></li>
+<li><a href="camisetas.php#camisetaB">Camiseta b&aacute;sica masculina- 100% algod&atilde;o - 26.1</a></li>
+<li><a href="camisetas.php#camisetaC">Polo Masculina - Malha piquet - 50% poli&eacute;ster/50% algod&atilde;o</a></li>
+<!--                <li><a href="camisetas.php#camisetaD">Polo - Malha piquet - 100% algodão</a></li>-->
+<li><a href="camisetas.php#camisetaE">Camiseta Masculina - Malha 100% poli&eacute;ster para sublima&ccedil;&atilde;o</a></li>
+<li><a href="camisetas.php#camisetaF">Camiseta Full Print - Malha 100% poli&eacute;ster</a></li>
+<li><a href="camisetas.php#camisetaG">Regata Masculina - Malha 100% algod&atilde;o 30.1</a></li>
+<li><a href="camisetas.php#camisetaH">Camisetas Infantil - Malha 100% algod&atilde;o 30.1</a></li>
+<!--                <li><a href="camisetas.php#camisetaI">Polos Feminina - Malha piquet 100% algodão 30.1</a></li>-->
+<li><a href="camisetas.php#camisetaI">Polos Feminina - Malha piquet 50% alg. 50% pol.</a></li>
+<li><a href="camisetas.php#camisetaJ">Baby look - Malha 100% algod&atilde;o 30.1</a></li>
+</ul>
+</div>
+<div class="links small-12 medium-6 large-3 columns">
+<ul class="side-nav">
+<li class="buttonn"><a> LINKS TECIDOS </a></li>
+<li><a href="tecidos.php#tecidoA">MicroFibra Pesada - 100% poli&eacute;ster</a></li>
+<li><a href="tecidos.php#tecidoB">MicroFibra Leve - 100% poli&eacute;ster</a></li>
+<li><a href="tecidos.php#tecidoC">Gloss Light - 100% poli&eacute;ster</a></li>
+<li><a href="tecidos.php#tecidoD">Crepe de Chine - 100% poli&eacute;ster</a></li>
+<li><a href="tecidos.php#tecidoE">Chiffon Classic - 100% poli&eacute;ster</a></li>
+<li><a href="tecidos.php#tecidoF">Oxford Strech - 100% poli&eacute;ster</a></li>
+<li><a href="tecidos.php#tecidoG">Malha Newprene - 90% poli&eacute;ster/4%elastano</a></li>
+<li><a href="tecidos.php#tecidoH">Ergonomic Flex - 92% poli&eacute;ster/8%elastano</a></li>
+</ul>
+</div>
+<div class="links small-12 medium-6 large-3 columns">
+<ul class="side-nav">
+<li class="buttonn"><a> LINKS SERVI&Ccedil;OS </a></li>
+<li><a href="servicos.php#servicoA">Impress&atilde;o Digital em Tecidos de Poli&eacute;ster ou Misturas</a></li>
+<li><a href="servicos.php#servicoB">Impress&atilde;o Digital Direta (DTG) M&Aacute;QUINA DIGITAL KORNIT </a></li>
+<li><a href="servicos.php#servicoC">Reprodu&ccedil;&atilde;o e Arte Final de Estampas </a></li>
+<li><a href="servicos.php#servicoD">Transfer&ecirc;ncia Sublim&aacute;tica em Calandra ou Prensa</a></li>
+<li><a href="servicos.php#servicoE">Transfer de Recorte</a></li>
+<li><a href="servicos.php#servicoF">Impermeabiliza&ccedil;&atilde;o e Tratamento de Tecidos</a></li>
+<li><a href="servicos.php#servicoG">Impress&atilde;o Sublim&aacute;tica em Fitas e Cadar&ccedil;os</a></li>
+<li><a href="servicos.php#servicoH">Comunica&ccedil;&atilde;o Visual / Banners</a></li>
+<li><a href="servicos.php#servicoI">Tecidos para Decora&ccedil;&atilde;o </a></li>
+</ul>
+</div>
+        <div class="footer-newsletter">
+            <div class="block block-subscribe">
+    <div class="block-title">
+        <strong><span>Newsletter</span></strong>
+    </div>
+    <form action="http://mage.dev/newsletter/subscriber/new/?___SID=U" method="post" id="newsletter-validate-detail">
+        <div class="block-content">
+            <div class="form-subscribe-header">
+                <label for="newsletter">Assine Nossa Newsletter:</label>
+            </div>
+            <div class="input-box">
+               <input type="text" name="email" id="newsletter" title="Assine nossa newsletter" class="input-text required-entry validate-email" />
+            </div>
+            <div class="actions">
+                <button type="submit" title="Assinar" class="button"><span><span>Assinar</span></span></button>
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript">
+    //<![CDATA[
+        var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
+    //]]>
+    </script>
+</div>
+        </div>
+
+        <div class="footer-links">
+            <ul class="links">
+                        <li class="first" ><a href="http://mage.dev/catalog/seo_sitemap/category/?___SID=U" title="Mapa do Site" >Mapa do Site</a></li>
+                                <li ><a href="http://mage.dev/catalogsearch/term/popular/?___SID=U" title="Termos de Pesquisa" >Termos de Pesquisa</a></li>
+                                <li ><a href="http://mage.dev/catalogsearch/advanced/?___SID=U" title="Busca Avançada" >Busca Avançada</a></li>
+                                <li ><a href="http://mage.dev/sales/guest/form/?___SID=U" title="Pedidos e Devoluções" >Pedidos e Devoluções</a></li>
+                                <li class=" last" ><a href="http://mage.dev/contacts/?___SID=U" title="Fale Conosco" >Fale Conosco</a></li>
+            </ul>
+        </div>
+
+        <address>&copy; 2016 Rossina Estamparia. Todos os direitos reservados.</address>
+    </div>
+</div>
+<script src="http://mage.dev/skin/frontend/waterlee-boilerplate/default/src/js/app.js"></script>

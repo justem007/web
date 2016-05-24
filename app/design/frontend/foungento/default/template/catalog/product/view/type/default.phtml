@@ -1,0 +1,29 @@
+<?php 
+/**
+ * Product view abstract
+ *
+ * @author Armin Almuete
+ * 
+ */
+
+/* 
+ * @var $this Mage_Catalog_Block_Product_View_Abstract 
+ * 
+ * */
+?>
+<?php $_product = $this->getProduct() ?>
+<div class="row">
+	<div class="large-6 columns"><?php echo $this->getPriceHtml($_product) ?></div>
+	<?php if ($this->displayProductStockStatus()): ?>
+		<?php if ($_product->isAvailable()): ?>
+			<div class="large-6 columns">
+				<p class="availability in-stock"><?php echo $this->__('Availability:') ?> <span><?php echo $this->__('In stock') ?></span></p>
+			</div>
+		<?php else: ?>
+			<div class="large-6 columns">
+				<p class="availability out-of-stock"><?php echo $this->__('Availability:') ?> <span><?php echo $this->__('Out of stock') ?></span></p>
+			</div>
+		<?php endif; ?>
+	<?php endif; ?>
+	<?php echo $this->getChildHtml('product_type_data_extra') ?>
+</div>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<RicardoJustem_RicardoModel>
+			<version>0.1.0</version>
+		</RicardoJustem_RicardoModel>
+	</modules>
+	<global>
+		<models>
+			<ricardojustem_ricardomodel>
+				<class>RicardoJustem_RicardoModel_Model</class>
+				<resourceModel>ricardojustem_ricardomodel_resource</resourceModel>
+			</ricardojustem_ricardomodel>
+			<ricardojustem_ricardomodel_resource>
+				<class>RicardoJustem_RicardoModel_Model_Resource</class>
+			</ricardojustem_ricardomodel_resource>
+		</models>
+		<blocks>
+			<ricardojustem_ricardomodel>
+				<class>RicardoJustem_RicardoModel_Block</class>
+			</ricardojustem_ricardomodel>
+		</blocks>
+		<helpers>
+			<ricardojustem_ricardomodel>
+				<class>RicardoJustem_RicardoModel_Helper</class>
+			</ricardojustem_ricardomodel>
+		</helpers>
+	</global>
+</config>

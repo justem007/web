@@ -1,0 +1,53 @@
+<?php
+/**
+ * Checkout onepage
+ * 
+ * @author Armin Almuete
+ */
+ 
+ /**
+ * @see Mage_Checkout_Block_Onepage
+ */
+?>
+<div class="row">
+	<div class="large-12 columns">
+		<div class="page-title">
+			<h1><?php echo $this->__('Checkout') ?></h1>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="<?php echo $this->getJsUrl('varien/accordion.js') ?>"></script>
+<script type="text/javascript" src="<?php echo $this->getSkinUrl('js/opcheckout.js') ?>"></script>
+
+<div class="row">
+	<div class="large-12 columns">
+		<ol id="checkoutSteps" class="opc small-block-grid-1 medium-block-grid-1 large-block-grid-1">
+		<?php $i=0; foreach($this->getSteps() as $_stepId => $_stepInfo): ?>
+		<?php if (!$this->getChild($_stepId) || !$this->getChild($_stepId)->isShow()): continue; endif; $i++ ?>
+			<li id="opc-<?php echo $_stepId ?>" class="section<?php echo !empty($_stepInfo['allow'])?' allow':'' ?><?php echo !empty($_stepInfo['complete'])?' saved':'' ?>">
+				<div class="step-title row">
+					<div class="small-12 medium-11 large-11 columns label-title"><h2><?php echo $_stepInfo['label'] ?></h2></div>
+					<div class="hide small-12 medium-1 large-1 columns"><a href="#"><?php echo $this->__('Edit') ?></a></div>
+				</div>
+				<div id="checkout-step-<?php echo $_stepId ?>" class="step a-item" style="display:none;">
+					<?php echo $this->getChildHtml($_stepId) ?>
+				</div>
+			</li>
+		<?php endforeach ?>
+		</ol>
+		<script type="text/javascript">
+		//<![CDATA[
+			var accordion = new Accordion('checkoutSteps', '.step-title', true);
+			<?php if($this->getActiveStep()): ?>
+			accordion.openSection('opc-<?php echo $this->getActiveStep() ?>');
+			<?php endif ?>
+			var checkout = new Checkout(accordion,{
+				progress: '<?php echo $this->getUrl('checkout/onepage/progress') ?>',
+				review: '<?php echo $this->getUrl('checkout/onepage/review') ?>',
+				saveMethod: '<?php echo $this->getUrl('checkout/onepage/saveMethod') ?>',
+				failure: '<?php echo $this->getUrl('checkout/cart') ?>'}
+			);
+		//]]>
+		</script>
+	</div>
+</div>

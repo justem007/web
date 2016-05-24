@@ -1,0 +1,14 @@
+{
+    "name": "root/web",
+    "description": "magento ecommerce",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "justem007",
+            "email": "justem007@hotmail.com"
+        }
+    ],
+    "require": {
+        "squizlabs/php_codesniffer": "^2.6"
+    }
+}

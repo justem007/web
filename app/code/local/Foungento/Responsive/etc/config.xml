@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Foungento_Responsive>
+            <version>0.0.1</version>
+        </Foungento_Responsive>
+    </modules>
+
+    <global>
+		<blocks>
+			<foungento_responsive>
+				<class>Foungento_Responsive_Block</class>
+			</foungento_responsive>
+			
+			<checkout>
+				<rewrite>
+					<cart_crosssell>Foungento_Responsive_Block_Checkout_Cart_Crosssell</cart_crosssell>
+				</rewrite>
+			</checkout>
+			
+		</blocks>
+    </global>
+</config>

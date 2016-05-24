@@ -1,0 +1,12 @@
+<div class="row">
+	<div class="page-title large-12 columns">
+		<h1><?php echo $this->__('Shopping Cart is Empty') ?></h1>
+	</div>
+	<div class="cart-empty large-12 columns">
+		<?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
+		<?php echo $this->getChildHtml('checkout_cart_empty_widget'); ?>
+		<p><?php echo $this->__('You have no items in your shopping cart.') ?></p>
+		<p><?php echo $this->__('Click <a href="%s">here</a> to continue shopping.', $this->getContinueShoppingUrl()) ?></p>
+		<?php echo $this->getChildHtml('shopping.cart.table.after'); ?>
+	</div>
+</div>

@@ -1,0 +1,42 @@
+<?php
+/**
+ * Page html notices
+ * 
+ * @author Armin Almuete
+ */
+ 
+/**
+ * @var $this Mage_Page_Block_Html_Notices
+ */
+?>
+
+<div class="contain-to-grid foungento-header">
+  <nav class="top-bar" data-topbar role="navigation" data-options="">
+	<ul class="title-area left">
+	  <!-- Title Area -->
+	  <li class="name">
+		<h3><a href="http://foungento.com">foungento</a></h3>
+	  </li>
+	</ul>
+  </nav>
+</div>
+
+<?php if ($this->displayNoscriptNotice()): ?>
+    <noscript>
+        <div class="global-site-notice noscript">
+            <div class="notice-inner">
+                <p>
+                    <strong><?php echo $this->__('JavaScript seems to be disabled in your browser.'); ?></strong><br />
+                    <?php echo $this->__('You must have JavaScript enabled in your browser to utilize the functionality of this website.'); ?>
+                </p>
+            </div>
+        </div>
+    </noscript>
+<?php endif; ?>
+<?php if ($this->displayDemoNotice()): ?>
+	<div class="row">
+		<div class="global-site-notice demo-notice text-center large-12 columns">
+			<div class="notice-inner"><p><?php echo $this->__('This is a demo store. Any orders placed through this store will not be honored or fulfilled.') ?></p></div>
+		</div>
+	</div>
+<?php endif; ?>

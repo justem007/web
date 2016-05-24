@@ -1,0 +1,19 @@
+<?php
+/**
+ * Product view
+ *
+ * @author Armin Almuete
+ * 
+ */
+ 
+/**
+ * @see Mage_Catalog_Block_Product_View
+ */
+?>
+<div id="product-options-wrapper" class="product-options">
+    <?php echo $this->getChildHtml('', true, true);?>
+    <?php if ($this->hasRequiredOptions()):?>
+        <p class="required"><?php echo $this->__('* Required Fields') ?></p>
+    <?php endif;?>
+</div>
+<script type="text/javascript">decorateGeneric($$('#product-options-wrapper dl'), ['last']);</script>

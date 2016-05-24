@@ -1,0 +1,44 @@
+<?php
+/**
+ * Product list template
+ *
+ * @author Armin Almuete
+ * 
+ */
+ 
+/**
+ * @see Mage_Catalog_Block_Product_New
+ */
+?>
+<?php if (($_products = $this->getProductCollection()) && $_products->getSize()): ?>
+<div class="row">
+	<div class="large-12 columns">
+		<?php $_columnCount = $this->getColumnCount(); ?>
+		<ul class="products-grid small-block-grid-1 medium-block-grid-3 large-block-grid-3">
+		<?php $i=0; foreach ($_products->getItems() as $_product): ?>
+			<li class="item">
+				<div class="products-grid-content">
+					<a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->escapeHtml($_product->getName()) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(600) ?>" width="600" height="600" alt="<?php echo $this->escapeHtml($_product->getName()) ?>" /></a>
+					<h3 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->escapeHtml($_product->getName()) ?>"><?php echo $this->escapeHtml($_product->getName()) ?></a></h3>
+					<?php //echo $this->getReviewsSummaryHtml($_product, 'short') ?>
+					<div class="row">
+						<div class="small-6 medium-6 large-6 columns">
+							<?php echo $this->getPriceHtml($_product, true, '-new') ?>
+						</div>
+						<div class="small-6 medium-6 large-6 columns">
+							<div class="actions text-right">
+								<?php if($_product->isSaleable()): ?>
+									<button class="btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Add to Cart')?></span></span></button>
+								<?php else: ?>
+									<p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+								<?php endif; ?>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+		<?php endforeach; ?>
+		</ul>
+	</div>
+</div>
+<?php endif; ?>

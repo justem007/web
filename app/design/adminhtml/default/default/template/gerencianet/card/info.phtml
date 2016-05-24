@@ -1,0 +1,26 @@
+<?php 
+/**
+ * Gerencianet
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL).
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ * @category   Payment
+ * @package    Gerencianet_Transparent
+ * @copyright  Copyright (c) 2015 Gerencianet (http://www.gerencianet.com.br)
+ * @author     AV5 Tecnologia <anderson@av5.com.br>
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+
+$additionaldata = unserialize($this->getInfo()->getData('additional_data'));
+$additionaldata = $additionaldata['card'];
+?>
+<p><?php echo $this->__('Nro. Transa&ccedil;&atilde;o: %s', $this->htmlEscape($this->getInfo()->getGerencianetChargeId())) ?></p>
+<p><?php echo $this->__('Titular do Cart&atilde;o: %s', $this->htmlEscape($this->getInfo()->getCcOwner())) ?></p>
+<p><?php echo $this->__('Bandeira do cart&atilde;o: %s', $this->htmlEscape($this->getCcTypeName())) ?></p>
+<p><?php echo $this->__('N&uacute;mero do Cart&atilde;o: xxxx-%s', $this->htmlEscape($this->getInfo()->getCcLast4())) ?></p>
+<p><?php echo $this->__('Validade: %s/%s', $this->htmlEscape($this->getInfo()->getCcExpMonth()), $this->htmlEscape($this->getInfo()->getCcExpYear())) ?></p>
+<p><?php echo $this->__('N&uacute;mero de Parcelas: %s', $additionaldata["cc_installments"]) ?></p>

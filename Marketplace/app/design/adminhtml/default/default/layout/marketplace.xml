@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Cybage Marketplace Plugin
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * It is available on the World Wide Web at:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you are unable to access it on the World Wide Web, please send an email
+ * To: Support_Magento@cybage.com.  We will send you a copy of the source file.
+ *
+ * @category   Marketplace Plugin
+ * @package    Cybage_Marketplace
+ * @copyright  Copyright (c) 2014 Cybage Software Pvt. Ltd., India
+ *             http://www.cybage.com/pages/centers-of-excellence/ecommerce/ecommerce.aspx
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @author     Cybage Software Pvt. Ltd. <Support_Magento@cybage.com>
+ */
+-->
+<layout version="0.1.0">
+    <marketplace_adminhtml_seller_index>
+        <reference name="content">
+            <block type="marketplace/adminhtml_seller" name="seller" />
+        </reference>
+    </marketplace_adminhtml_seller_index>
+    <marketplace_adminhtml_orderby_index>
+        <reference name="messages">
+            <action method="addNotice" translate="message">
+                <message>This report depends on timezone configuration. Once timezone is changed, the lifetime statistics need to be refreshed.</message>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="marketplace/adminhtml_orderby" template="report/grid/container.phtml" name="marketplace.report.refreshstatistics" >
+                <block type="adminhtml/store_switcher" template="report/store/switcher/enhanced.phtml" name="store.switcher">
+                    <action method="setStoreVarName"><var_name>store_ids</var_name></action>
+                </block>
+                <block type="marketplace/adminhtml_orderby_form" name="grid.filter.form">
+                    <action method="setFieldVisibility">
+                        <field>report_type</field>
+                        <visibility>0</visibility>
+                    </action>
+                </block>
+            </block>
+        </reference>
+    </marketplace_adminhtml_orderby_index>
+    <marketplace_adminhtml_commission_index>
+        <reference name="content">
+            <block type="marketplace/adminhtml_commission" name="commission" />
+        </reference>
+    </marketplace_adminhtml_commission_index>
+    <marketplace_adminhtml_commission_payhistory>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="marketplace/adminhtml_commission_edit_tab_payhistory" name="payhistory" />
+        </block>
+    </marketplace_adminhtml_commission_payhistory>
+</layout>

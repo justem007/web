@@ -10,6 +10,7 @@
     <option name="layoutEnabled" value="false" />
     <option name="packages" value="" />
     <option name="themes" value="" />
+    <option name="uploadEvalPhpAutomatically" value="true" />
     <option name="basicAuthUsername" value="admin" />
     <option name="basicAuthPassword" value="ric3791@" />
     <option name="pathsToMagentoSerialized" value="$PROJECT_DIR$" />

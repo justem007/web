@@ -265,7 +265,22 @@
                     <module>Mage_ImportExport</module>
                     <class>Mage_ImportExport_Model_Resource_Setup</class>
                 </setup>
-            </importexport_setup><gerencianet_transparent_setup>
+            </importexport_setup><ves_megamenu_setup>
+                <setup>
+                    <module>Ves_Megamenu</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </ves_megamenu_setup><ves_megamenu_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </ves_megamenu_write><ves_megamenu_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </ves_megamenu_read><gerencianet_transparent_setup>
                 <setup>
                     <module>Gerencianet_Transparent</module>
                     <class>Mage_Sales_Model_Mysql4_Setup</class>
@@ -283,28 +298,156 @@
 	                    <use>core_read</use>
 	                </connection>
 	            </gerencianet_transparent_read>
-            </gerencianet_transparent_setup><moneybookers_setup>
+            </gerencianet_transparent_setup><sociallogin_setup>
+                <setup>
+                    <module>LitExtension_SocialLogin</module>
+                    <class>Mage_Customer_Model_Entity_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </sociallogin_setup><le_sociallogin_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </le_sociallogin_write><le_sociallogin_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </le_sociallogin_read><RicardoJustem_RicardoModel>
+                <setup>
+                    <module>RicardoJustem_RicardoModel</module>
+                </setup>
+            </RicardoJustem_RicardoModel><moneybookers_setup>
                 <setup>
                     <module>Phoenix_Moneybookers</module>
                 </setup>
-            </moneybookers_setup><alekseon_mailtransport_setup>
+            </moneybookers_setup><ves_brand_setup>
+                <setup>
+                    <module>Ves_Brand</module>
+				
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </ves_brand_setup><ves_brand_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </ves_brand_write><ves_brand_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </ves_brand_read><alekseon_mailtransport_setup>
                 <setup>
                     <module>Alekseon_MailTransport</module>
                     <class>Mage_Core_Model_Resource_Setup</class>
                 </setup>
-            </alekseon_mailtransport_setup><marketplace_setup>
+            </alekseon_mailtransport_setup><themesettings_setup>
+				<setup>
+					<module>Ves_Themesettings</module>
+					<class>Mage_Catalog_Model_Resource_Setup</class>
+				</setup>
+				<connection>
+					<use>core_setup</use>
+				</connection>
+			</themesettings_setup><themesettings_write>
+				<connection>
+					<use>core_write</use>
+				</connection>
+			</themesettings_write><themesettings_read>
+				<connection>
+					<use>core_read</use>
+				</connection>
+			</themesettings_read><productlist_setup>
+                <setup>
+                    <module>Ves_ProductList</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </productlist_setup><productlist_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </productlist_write><productlist_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </productlist_read><marketplace_setup>
                 <setup>
                     <module>Cybage_Marketplace</module>
                     <class>Mage_Catalog_Model_Resource_Setup</class>
                 </setup>
-            </marketplace_setup><pedroteixeira_correios_setup>
+            </marketplace_setup><blog_setup>
+                <setup>
+                    <module>AW_Blog</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </blog_setup><blog_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </blog_write><blog_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </blog_read><ajax_setup>
+				<setup>
+					<module>Ves_Ajax</module>
+					<class>Mage_Catalog_Model_Resource_Setup</class>
+				</setup>
+				<connection>
+					<use>core_setup</use>
+				</connection>
+			</ajax_setup><ajax_write>
+				<connection>
+					<use>core_write</use>
+				</connection>
+			</ajax_write><ajax_read>
+				<connection>
+					<use>core_read</use>
+				</connection>
+			</ajax_read><sharingtool_setup>
+                <setup>
+                    <module>AddThis_SharingTool</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </sharingtool_setup><sharingtool_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </sharingtool_write><sharingtool_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </sharingtool_read><pedroteixeira_correios_setup>
                 <setup>
                     <module>PedroTeixeira_Correios</module>
                 </setup>
                 <connection>
                     <use>directory_setup</use>
                 </connection>
-            </pedroteixeira_correios_setup><db>
+            </pedroteixeira_correios_setup><megamenu_setup>
+                <setup>
+                    <module>Cmsmart_Megamenu</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </megamenu_setup><megamenu_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </megamenu_write><megamenu_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </megamenu_read><db>
                 <table_prefix />
             </db></resources>
         <resource>
@@ -1329,7 +1472,9 @@
             </rating_resource><widget>
                 <class>Mage_Widget_Model</class>
                 <resourceModel>widget_resource</resourceModel>
-            </widget><widget_resource>
+            <rewrite>
+                    <widget>Ves_ProductList_Model_Mage_Widget</widget>
+                </rewrite></widget><widget_resource>
                 <class>Mage_Widget_Model_Resource</class>
                 <deprecatedNode>widget_mysql4</deprecatedNode>
                 <entities>
@@ -1499,7 +1644,9 @@
             </sendfriend_resource><sitemap>
                 <class>Mage_Sitemap_Model</class>
                 <resourceModel>sitemap_resource</resourceModel>
-            </sitemap><sitemap_resource>
+            <rewrite>
+                    <sitemap>AW_Blog_Model_Sitemap</sitemap>
+                </rewrite></sitemap><sitemap_resource>
                 <class>Mage_Sitemap_Model_Resource</class>
                 <deprecatedNode>sitemap_mysql4</deprecatedNode>
                 <entities>
@@ -1759,7 +1906,28 @@
                         <table>importexport_importdata</table>
                     </importdata>
                 </entities>
-            </importexport_resource><gerencianet_transparent>
+            </importexport_resource><ajaxsearch>
+                <class>Cmsmart_Ajaxsearch_Model</class>
+                <resourceModel>ajaxsearch_mysql4</resourceModel>
+            </ajaxsearch><ves_megamenu>
+                <class>Ves_Megamenu_Model</class>
+                <resourceModel>ves_megamenu_mysql4</resourceModel>
+            </ves_megamenu><ves_megamenu_mysql4>
+                <class>Ves_Megamenu_Model_Mysql4</class>
+                <entities>
+                    <megamenu>
+                        <table>ves_megamenu_megamenu</table>
+                    </megamenu>
+                    <megamenu_store>
+                        <table>ves_megamenu_megamenu_store</table>
+                    </megamenu_store>
+                    <megamenu_widget>
+                        <table>ves_megamenu_megamenu_widget</table>
+                    </megamenu_widget>
+                </entities>
+            </ves_megamenu_mysql4><youama_ajaxlogin>
+                <class>Youama_Ajaxlogin_Model</class>
+            </youama_ajaxlogin><gerencianet_transparent>
             <class>Gerencianet_Transparent_Model</class>
        		<resourceModel>gerencianet_transparent_mysql4</resourceModel>
           </gerencianet_transparent><gerencianet_transparent_mysql4>
@@ -1769,7 +1937,9 @@
 					<table>gerencianet_notifications</table>
 				</notifications>
 			</entities>
-      	  </gerencianet_transparent_mysql4><ricardojustem_ricardomodel>
+      	  </gerencianet_transparent_mysql4><le_sociallogin>
+                <class>LitExtension_SocialLogin_Model</class>
+            </le_sociallogin><ricardojustem_ricardomodel>
 				<class>RicardoJustem_RicardoModel_Model</class>
 				<resourceModel>ricardojustem_ricardomodel_resource</resourceModel>
 			</ricardojustem_ricardomodel><ricardojustem_ricardomodel_resource>
@@ -1778,7 +1948,26 @@
                 <class>Phoenix_Moneybookers_Model</class>
             </moneybookers><inchoo_php7>
                 <class>Inchoo_PHP7_Model</class>
-            </inchoo_php7><alekseon_mailTransport>
+            </inchoo_php7><ves_brand>
+                <class>Ves_Brand_Model</class>
+                <resourceModel>ves_brand_mysql4</resourceModel>
+            </ves_brand><ves_brand_mysql4>
+                <class>Ves_Brand_Model_Mysql4</class>
+                <entities>
+                	<group>
+                        <table>ves_brand_group</table>
+                    </group>
+                    <group_store>
+                        <table>ves_brand_group_store</table>
+                    </group_store>
+					<brand>
+                        <table>ves_brand_brand</table>
+                    </brand>
+					<brand_store>
+                        <table>ves_brand_brand_store</table>
+                    </brand_store>
+                </entities>
+            </ves_brand_mysql4><alekseon_mailTransport>
                 <class>Alekseon_MailTransport_Model</class>
                 <resourceModel>alekseon_mailtransport_resource</resourceModel>
             </alekseon_mailTransport><alekseon_mailtransport_resource>
@@ -1791,9 +1980,35 @@
                         <table>alekseon_mailtransport_sentemail_correspondent</table>
                     </sentemail_correspondent>
                 </entities>
-            </alekseon_mailtransport_resource><ricardomartins_pagseguro>
+            </alekseon_mailtransport_resource><themesettings>
+				<class>Ves_Themesettings_Model</class>
+				<resourceModel>themesettings_mysql4</resourceModel>
+			</themesettings><themesettings_mysql4>
+				<class>Ves_Themesettings_Model_Mysql4</class>
+			</themesettings_mysql4><ecommerceteam_cloudzoom>
+                <class>EcommerceTeam_CloudZoom_Model</class>
+            </ecommerceteam_cloudzoom><ricardomartins_pagseguro>
                 <class>RicardoMartins_PagSeguro_Model</class>
-            </ricardomartins_pagseguro><marketplace>
+            </ricardomartins_pagseguro><productlist>
+                <class>Ves_ProductList_Model</class>
+                <resourceModel>productlist_mysql4</resourceModel>
+            </productlist><productlist_mysql4>
+                <class>Ves_ProductList_Model_Mysql4</class>
+                <entities>
+                    <rule>
+                        <table>productlist_rule</table>
+                    </rule>
+                    <rule_product>
+                        <table>productlist_rule_product</table>
+                    </rule_product>
+                    <rule_store>
+                        <table>productlist_rule_store</table>
+                    </rule_store>
+                    <rule_customer>
+                        <table>productlist_rule_customer</table>
+                    </rule_customer>
+                </entities>
+            </productlist_mysql4><marketplace>
                 <class>Cybage_Marketplace_Model</class>
                 <resourceModel>marketplace_resource</resourceModel>
             </marketplace><marketplace_resource>
@@ -1815,16 +2030,101 @@
                         <table>marketplace_logging</table>
                     </logging>
                 </entities>                
-            </marketplace_resource><pedroteixeira_correios>
+            </marketplace_resource><blog>
+                <class>AW_Blog_Model</class>
+                <resourceModel>blog_mysql4</resourceModel>
+            </blog><blog_mysql4>
+                <class>AW_Blog_Model_Mysql4</class>
+                <entities>
+                    <blog>
+                        <table>aw_blog</table>
+                    </blog>
+                    <post>
+                        <table>aw_blog</table>
+                    </post>
+                    <comment>
+                        <table>aw_blog_comment</table>
+                    </comment>
+                    <cat>
+                        <table>aw_blog_cat</table>
+                    </cat>
+                    <post_cat>
+                        <table>aw_blog_post_cat</table>
+                    </post_cat>
+                    <store>
+                        <table>aw_blog_store</table>
+                    </store>
+                    <cat_store>
+                        <table>aw_blog_cat_store</table>
+                    </cat_store>
+                    <tag>
+                        <table>aw_blog_tags</table>
+                    </tag>
+
+
+                    <lblog>
+                        <table>blog</table>
+                    </lblog>
+                    <lpost>
+                        <table>blog</table>
+                    </lpost>
+                    <lcomment>
+                        <table>blog_comment</table>
+                    </lcomment>
+                    <lcat>
+                        <table>blog_cat</table>
+                    </lcat>
+                    <lpost_cat>
+                        <table>blog_post_cat</table>
+                    </lpost_cat>
+                    <lstore>
+                        <table>blog_store</table>
+                    </lstore>
+
+                    <lcat_store>
+                        <table>blog_cat_store</table>
+                    </lcat_store>
+
+                </entities>
+            </blog_mysql4><newsletterpopup>
+				<class>Tm_NewsletterPopup_Model</class>
+			</newsletterpopup><ajax>
+				<class>Ves_Ajax_Model</class>
+				<resourceModel>ajax_mysql4</resourceModel>
+			</ajax><ajax_mysql4>
+				<class>Ves_Ajax_Model_Mysql4</class>
+			</ajax_mysql4><sharingtool>
+                <class>AddThis_SharingTool_Model</class>        
+            </sharingtool><ajaxcart>
+                <class>Cmsmart_AjaxCart_Model</class>
+            </ajaxcart><catalogsale>
+          <class>Thirty4_CatalogSale_Model</class>
+        </catalogsale><pedroteixeira_correios>
                 <class>PedroTeixeira_Correios_Model</class>
-            </pedroteixeira_correios></models>
+            </pedroteixeira_correios><megamenu>
+                <class>Cmsmart_Megamenu_Model</class>
+                <resourceModel>megamenu_mysql4</resourceModel>
+            </megamenu><megamenu_mysql4>
+                <class>Cmsmart_Megamenu_Model_Mysql4</class>
+                <entities>
+                    <megamenu>
+                        <table>admin_menutop</table>
+                    </megamenu>
+                </entities>
+            </megamenu_mysql4><easytabs>
+                <class>TM_EasyTabs_Model</class>
+            </easytabs><googlemap>
+				<class>Tm_GoogleMap_Model</class>
+			</googlemap></models>
     <blocks>
             <core>
                 <class>Mage_Core_Block</class>
             </core>
         <page>
                 <class>Mage_Page_Block</class>
-            </page><install>
+            <rewrite>
+                    <html_topmenu>JakeSharp_Waterlee_Block_Topmenu</html_topmenu>
+                <html_head>Ves_Themesettings_Block_Html_Head</html_head><html_header>Ves_Themesettings_Block_Html_Header</html_header></rewrite></page><install>
                 <class>Mage_Install_Block</class>
             </install><admin>
                 <class>Mage_Admin_Block</class>
@@ -1834,21 +2134,25 @@
                 <class>Mage_Adminhtml_Block</class>
             <rewrite>
                     <catalog_product_grid>Cybage_Marketplace_Block_Adminhtml_Catalog_Product_Grid</catalog_product_grid>
-                </rewrite></adminhtml><directory>
+                <catalog_category_tabs>Cmsmart_Megamenu_Block_Catalog_Category_Tabs</catalog_category_tabs></rewrite></adminhtml><directory>
                 <class>Mage_Directory_Block</class>
             </directory><cms>
                 <class>Mage_Cms_Block</class>
             </cms><catalog>
                 <class>Mage_Catalog_Block</class>
-            <rewrite> 
-                   <product_list>Cybage_Marketplace_Block_Catalog_Product_List</product_list>
-                </rewrite></catalog><customer>
+            <rewrite>
+                  <layer_filter_price>Ves_ProductList_Block_Catalog_Layer_Filter_Price</layer_filter_price>
+                <product_list>Cybage_Marketplace_Block_Catalog_Product_List</product_list></rewrite></catalog><customer>
                 <class>Mage_Customer_Block</class>
             </customer><catalogsearch>
                 <class>Mage_CatalogSearch_Block</class>
-            </catalogsearch><configurableswatches>
+            <rewrite>
+                    <result>Cmsmart_Ajaxsearch_Block_Result</result>
+                </rewrite></catalogsearch><configurableswatches>
                 <class>Mage_ConfigurableSwatches_Block</class>
-            </configurableswatches><payment>
+            <rewrite>
+					<catalog_media_js_list>Ves_Themesettings_Block_Catalog_Media_Js_List</catalog_media_js_list>
+				</rewrite></configurableswatches><payment>
                 <class>Mage_Payment_Block</class>
             </payment><sales>
                 <class>Mage_Sales_Block</class>
@@ -1856,7 +2160,9 @@
                 <class>Mage_CatalogInventory_Block</class>
             </cataloginventory><checkout>
                 <class>Mage_Checkout_Block</class>
-            </checkout><paypal>
+            <rewrite>
+					<cart_crosssell>Foungento_Responsive_Block_Checkout_Cart_Crosssell</cart_crosssell>
+				</rewrite></checkout><paypal>
                 <class>Mage_Paypal_Block</class>
             </paypal><poll>
                 <class>Mage_Poll_Block</class>
@@ -1880,7 +2186,9 @@
                 <class>Mage_Sendfriend_Block</class>
             </sendfriend><rss>
                 <class>Mage_Rss_Block</class>
-            </rss><productalert>
+            <rewrite /><drewrite>
+                    <list>AW_Blog_Block_Rss_List</list>
+                </drewrite></rss><productalert>
                 <class>Mage_ProductAlert_Block</class>
             </productalert><downloadable>
                 <class>Mage_Downloadable_Block</class>
@@ -1902,17 +2210,49 @@
                 <class>Mage_CurrencySymbol_Block</class>
             </currencysymbol><importexport>
                 <class>Mage_ImportExport_Block</class>
-            </importexport><gerencianet_transparent>
+            </importexport><ajaxsearch>
+                <class>Cmsmart_Ajaxsearch_Block</class>
+            </ajaxsearch><ves_megamenu>
+                <class>Ves_Megamenu_Block</class>
+            </ves_megamenu><youama_ajaxlogin>
+                <class>Youama_Ajaxlogin_Block</class>
+            </youama_ajaxlogin><gerencianet_transparent>
                 <class>Gerencianet_Transparent_Block</class>
-            </gerencianet_transparent><ricardojustem_ricardomodel>
+            </gerencianet_transparent><le_sociallogin>
+                <class>LitExtension_SocialLogin_Block</class>
+            </le_sociallogin><ricardojustem_ricardomodel>
 				<class>RicardoJustem_RicardoModel_Block</class>
-			</ricardojustem_ricardomodel><moneybookers><class>Phoenix_Moneybookers_Block</class></moneybookers><alekseon_mailTransport>
+			</ricardojustem_ricardomodel><moneybookers><class>Phoenix_Moneybookers_Block</class></moneybookers><ves_brand>
+                <class>Ves_Brand_Block</class>
+            </ves_brand><alekseon_mailTransport>
                 <class>Alekseon_MailTransport_Block</class>
-            </alekseon_mailTransport><ricardomartins_pagseguro>
+            </alekseon_mailTransport><themesettings>
+				<class>Ves_Themesettings_Block</class>
+			</themesettings><ecommerceteam_cloudzoom>
+                <class>EcommerceTeam_CloudZoom_Block</class>
+            </ecommerceteam_cloudzoom><ricardomartins_pagseguro>
                 <class>RicardoMartins_PagSeguro_Block</class>
-            </ricardomartins_pagseguro><marketplace>
+            </ricardomartins_pagseguro><productlist>
+                <class>Ves_ProductList_Block</class>
+            </productlist><marketplace>
                 <class>Cybage_Marketplace_Block</class>
-            </marketplace><review_product_view>Cybage_Marketplace_Block_Review_Product_View</review_product_view><review_product_view_list>Cybage_Marketplace_Block_Review_Product_View_List</review_product_view_list></blocks><helpers>
+            </marketplace><review_product_view>Cybage_Marketplace_Block_Review_Product_View</review_product_view><review_product_view_list>Cybage_Marketplace_Block_Review_Product_View_List</review_product_view_list><blog>
+                <class>AW_Blog_Block</class>
+            </blog><ajax>
+				<class>Ves_Ajax_Block</class>
+			</ajax><sharingtool>
+                <class>AddThis_SharingTool_Block</class>        
+            </sharingtool><foungento_responsive>
+				<class>Foungento_Responsive_Block</class>
+			</foungento_responsive><ajaxcart>
+                <class>Cmsmart_AjaxCart_Block</class>
+            </ajaxcart><catalogsale>
+          <class>Thirty4_CatalogSale_Block</class>
+        </catalogsale><megamenu>
+                <class>Cmsmart_Megamenu_Block</class>
+            </megamenu><easytabs>
+                <class>TM_EasyTabs_Block</class>
+            </easytabs></blocks><helpers>
             <core>
                 <encryption_model>Mage_Core_Model_Encryption</encryption_model>
             <rewrite>
@@ -1928,7 +2268,9 @@
                 <class>Mage_CatalogRule_Helper</class>
             </catalogrule><configurableswatches>
                 <class>Mage_ConfigurableSwatches_Helper</class>
-            </configurableswatches><cataloginventory>
+            <rewrite>
+					<mediafallback>Ves_Themesettings_Helper_Mediafallback</mediafallback>
+				</rewrite></configurableswatches><cataloginventory>
                 <class>Mage_CatalogInventory_Helper</class>
             </cataloginventory><salesrule>
                 <class>Mage_SalesRule_Helper</class>
@@ -1954,21 +2296,57 @@
                 <class>Mage_CurrencySymbol_Helper</class>
             </currencysymbol><importexport>
                 <class>Mage_ImportExport_Helper</class>
-            </importexport><gerencianet_transparent>
+            </importexport><waterlee>
+                <class>JakeSharp_Waterlee_Helper</class>
+            </waterlee><ajaxsearch>
+                <class>Cmsmart_Ajaxsearch_Helper</class>
+            </ajaxsearch><ves_megamenu>
+                <class>Ves_Megamenu_Helper</class>
+            </ves_megamenu><gerencianet_transparent>
             <class>Gerencianet_Transparent_Helper</class>
-          </gerencianet_transparent><ricardojustem_ricardomodel>
+          </gerencianet_transparent><le_sociallogin>
+                <class>LitExtension_SocialLogin_Helper</class>
+            </le_sociallogin><ricardojustem_ricardomodel>
 				<class>RicardoJustem_RicardoModel_Helper</class>
 			</ricardojustem_ricardomodel><moneybookers>
                 <class>Phoenix_Moneybookers_Helper</class>
-            </moneybookers><alekseon_mailTransport>
+            </moneybookers><ves_brand>
+                <class>Ves_Brand_Helper</class>
+            </ves_brand><alekseon_mailTransport>
                 <class>Alekseon_MailTransport_Helper</class>
-            </alekseon_mailTransport><ricardomartins_pagseguro>
+            </alekseon_mailTransport><themesettings>
+				<class>Ves_Themesettings_Helper</class>
+			</themesettings><ecommerceteam_cloudzoom>
+                <class>EcommerceTeam_CloudZoom_Helper</class>
+            </ecommerceteam_cloudzoom><ricardomartins_pagseguro>
                 <class>RicardoMartins_PagSeguro_Helper</class>
-            </ricardomartins_pagseguro><marketplace>
+            </ricardomartins_pagseguro><productlist>
+                <class>Ves_ProductList_Helper</class>
+            </productlist><marketplace>
                 <class>Cybage_Marketplace_Helper</class>
-            </marketplace><pedroteixeira_correios>
+            </marketplace><blog>
+                <class>AW_Blog_Helper</class>
+            </blog><newsletterpopup>
+				<class>Tm_NewsletterPopup_Helper</class>
+			</newsletterpopup><ajax>
+				<class>Ves_Ajax_Helper</class>
+			</ajax><sharingtool>
+                <class>AddThis_SharingTool_Helper</class>
+            </sharingtool><ajaxcart>
+                
+            <class>Cmsmart_AjaxCart_Helper</class></ajaxcart><catalogsale>
+          <class>Thirty4_CatalogSale_Helper</class>
+        </catalogsale><pedroteixeira_correios>
                 <class>PedroTeixeira_Correios_Helper</class>
-            </pedroteixeira_correios></helpers><template>
+            </pedroteixeira_correios><megamenu>
+                <class>Cmsmart_Megamenu_Helper</class>
+            </megamenu><easytabs>
+                <class>TM_EasyTabs_Helper</class>
+            </easytabs><googlemap>
+				<class>Tm_GoogleMap_Helper</class>
+			</googlemap><tinymce5>
+				<class>Meanbee_Tinymce5_Helper</class>
+			</tinymce5></helpers><template>
             <email>
                 <design_email_header translate="label" module="core">
                     <label>Email - Header</label>
@@ -2160,7 +2538,11 @@
                     <label>Pending Order Reminder Email Template</label>
                     <file>pendingorder_reminder.html</file>
                     <type>html</type>
-                </marketplace_seller_order_pending_reminder_template></email>
+                </marketplace_seller_order_pending_reminder_template><blog_comments_email_template translate="label" module="blog">
+                    <label>Comment Submitted</label>
+                    <file>aw_blog/comment_submitted.html</file>
+                    <type>text</type>
+                </blog_comments_email_template></email>
         </template><cache>
             <types>
                 <config translate="label,description" module="core">
@@ -2229,7 +2611,11 @@
                         <class>Mage_Core_Model_Domainpolicy</class>
                         <method>addDomainPolicyHeader</method>
                     </security_domain_policy>
-                </observers>
+                <blog>
+                        <type>singleton</type>
+                        <class>blog/observer</class>
+                        <method>rewriteRssList</method>
+                    </blog></observers>
             </controller_action_predispatch>
         <store_save_commit_after>
                 <observers>
@@ -2304,7 +2690,19 @@
                         <class>Mage_Cms_Controller_Router</class>
                         <method>initControllerRouters</method>
                     </cms>
-                </observers>
+                <ves_brand_observer>
+						<type>singleton</type>
+						<class>Ves_Brand_Model_Observer</class>
+						<method>initControllerRouters</method>
+					</ves_brand_observer><ves_produlist_observer>
+                        <type>singleton</type>
+                        <class>Ves_ProductList_Model_Observer</class>
+                        <method>initControllerRouters</method>
+                    </ves_produlist_observer><blog>
+                        <type>singleton</type>
+                        <class>AW_Blog_Controller_Router</class>
+                        <method>initControllerRouters</method>
+                    </blog></observers>
             </controller_front_init_routers><log_log_clean_after>
                 <observers>
                     <catalog_product_compare_item>
@@ -2495,7 +2893,11 @@
                         <class>cataloginventory/observer</class>
                         <method>saveInventoryData</method>
                     </inventory>
-                </observers>
+                <ves_productlist_detect_product_changes>
+                        <type>singleton</type>
+                        <class>productlist/observer</class>
+                        <method>applyAllRule</method>
+                    </ves_productlist_detect_product_changes></observers>
             </catalog_product_save_after><catalog_model_product_duplicate>
                 <observers>
                     <inventory>
@@ -2749,7 +3151,22 @@
                         <method>validateProductMarketplaceStatus</method>
                     </marketplace>
                 </observers>
-            </catalog_product_save_before></events><index>
+            </catalog_product_save_before><sitemap_add_xml_block_to_the_end>
+                <observers>
+                    <add_blog_section>
+                        <type>singleton</type>
+                        <class>blog/observer</class>
+                        <method>addBlogSection</method>
+                    </add_blog_section>
+                </observers>
+            </sitemap_add_xml_block_to_the_end><catalog_category_prepare_save>
+           	 <observers>
+              <Cmsmart_megamenu_observer>
+                <class>Cmsmart_Megamenu_Model_Observer</class>
+                <method>saveCategoryTop</method>
+              </Cmsmart_megamenu_observer>
+            </observers>
+            </catalog_category_prepare_save></events><index>
             <lock>
                 <storage>
                     <model>index/lock_storage_db</model>
@@ -5177,7 +5594,16 @@
                 <links_target_new_window>1</links_target_new_window>
                 <content_disposition>inline</content_disposition>
                 <disable_guest_checkout>1</disable_guest_checkout>
-            </downloadable></catalog><sales>
+            </downloadable><cloudzoom>
+                <enabled>1</enabled>
+                <position>right</position>
+                <show_title>1</show_title>
+                <title_opacity>50</title_opacity>
+                <lens_opacity>50</lens_opacity>
+                <tint_opacity>50</tint_opacity>
+                <big_image_width>800</big_image_width>
+                <big_image_height>800</big_image_height>
+            </cloudzoom></catalog><sales>
             <msrp>
                 <enabled>0</enabled>
                 <apply_for_all>0</apply_for_all>
@@ -6800,7 +7226,10 @@ T: {{var telephone}}
                 <error_email_template>sitemap_generate_error_email_template</error_email_template>
                 <error_email_identity>general</error_email_identity>
             </generate>
-        </sitemap><persistent>
+        <blog>
+                <changefreq>weekly</changefreq>
+                <priority>0.5</priority>
+            </blog></sitemap><persistent>
             <options>
                 <enabled>0</enabled>
                 <lifetime>31536000</lifetime>
@@ -6875,11 +7304,170 @@ T: {{var telephone}}
                 <identity>general</identity>
                 <template>oauth_email_template</template>
             </email>
-        </oauth><moneybookers>
+        </oauth><ajaxsearch>
+            
+            <settings>
+                <enabled>1</enabled>
+                <search_by_att>0</search_by_att>
+                <width>400</width>                
+                <border_color>#FFFFFFF</border_color>
+                <border_width>1</border_width>
+                <hover_bg>#fafbff</hover_bg>
+                <title_bg>#0e0200</title_bg>
+                <title_color>#e9f5ff</title_color>
+                <highlight_color>#ff0000</highlight_color>
+                <highlight_size>12</highlight_size>
+                <min_char>3</min_char>
+                <time_request>500</time_request>
+                <noti_no_result>No results found.</noti_no_result>
+                <noti_color>#545454</noti_color>
+            </settings>
+			<searchbycategory>
+				<enable>1</enable>
+				<choosenumbersofcategory>2</choosenumbersofcategory>
+				<backgroundcategory>#ffffff</backgroundcategory>
+				<backgroundcategoryhover>#fafafa</backgroundcategoryhover>
+				<colorstateactive>#000000</colorstateactive>
+				<backgroundheader>#000000</backgroundheader>
+			</searchbycategory>
+            <suggest>
+                <enable>0</enable>
+                <suggest_color>#8e0900</suggest_color>                
+                <count_color>#9b0c0e</count_color>
+                <hover_color>#ff816e</hover_color>
+            </suggest>
+            <preview>
+                <enable>1</enable>
+                <number_product>10</number_product>
+                <show_image>1</show_image>
+                <show_name>1</show_name>
+                <show_cat>1</show_cat>
+                <show_attribute>1</show_attribute>
+                <show_description>1</show_description>
+                <show_price>1</show_price>
+                <show_rating>1</show_rating>
+                <show_countreviews>1</show_countreviews>
+                <show_viewall>0</show_viewall>
+                <num_char_att>30</num_char_att>
+                <num_char_description>200</num_char_description>
+                <pro_title_color>#333333</pro_title_color>
+                <pro_cat_color>#679100</pro_cat_color>
+                <pro_cat_hover_color>#fc00cd</pro_cat_hover_color>
+                <pro_countreviews_color>#e24000</pro_countreviews_color>
+                <pro_description_color>#000000</pro_description_color>
+                <pro_price_color>#959595</pro_price_color>
+                <pro_old_price_color>#959595</pro_old_price_color>                
+               
+                <image_width>60</image_width>
+                <image_height>60</image_height>
+                <image_border_width>1</image_border_width>
+                <image_border_color>#bbbbbb</image_border_color>
+                <sort_by>0</sort_by>
+                <order>1</order>
+            </preview>
+            
+            <category>
+                <enable>0</enable>
+                <cat_title_color>#414141</cat_title_color>                
+                <cat_description_color>#545454</cat_description_color>
+            </category>
+            <page>
+                <enable>0</enable>
+                <page_title_color>#414141</page_title_color>                
+                <page_description_color>#545454</page_description_color>                
+            </page>
+        </ajaxsearch><ves_megamenu>
+            <ves_megamenu>
+                <show>1</show>
+                <params />
+                <enable_sidebar_logo>0</enable_sidebar_logo>
+                <enable_sidebar_search>0</enable_sidebar_search>
+                <enable_sidebar_copyright>1</enable_sidebar_copyright>
+                <enable_sidebar_sosial>1</enable_sidebar_sosial>
+                <facebook_link />
+                <twitter_link />
+                <google_link />
+                <instagram_link />
+                <pinterest_link />
+                <youtube_link />
+                <dribbble_link />
+				<enable_cache>0</enable_cache>		
+            </ves_megamenu>
+        </ves_megamenu><youamaajaxlogin>
+            <settings>
+                <power>1</power>
+                <jquery>0</jquery>
+                <jqueryui>1</jqueryui>
+                <redirection>0</redirection>
+            </settings>
+        </youamaajaxlogin><le_sociallogin>
+            <general><showonloginpage>inloginbox</showonloginpage></general>
+            <general><showoncheckout>1</showoncheckout></general>
+            <facebook><enabled>0</enabled></facebook>
+            <google><enabled>0</enabled></google>
+            <twitter><enabled>0</enabled></twitter>
+            <linkedin><enabled>0</enabled></linkedin>
+            <yahoo><enabled>0</enabled></yahoo>
+        </le_sociallogin><moneybookers>
             <settings>
                 <activationstatus>0</activationstatus>
             </settings>
-        </moneybookers><alekseon_adminNotification>
+        </moneybookers><ves_brand>
+            <general_setting>
+                <show>1</show>    
+                <theme>default</theme>
+                <listing_layout>grid</listing_layout>
+                <list_limit>10</list_limit>
+				<enable_jquery>0</enable_jquery>
+				<title>Ves Brand</title>  
+				<theme>default</theme>
+                <route>ves-brand</route>
+				<extension>html</extension>
+				<brand_imagesize>124x45</brand_imagesize>
+				<enable_icon>1</enable_icon>
+			</general_setting>
+			 
+			<module_setting>
+				<enable_scrollmodule>1</enable_scrollmodule>
+				<brandnav_parent>0</brandnav_parent>
+				<columns>6</columns>
+				<max_items>4</max_items>
+				<scroll_position>content</scroll_position>
+				<scroll_title />
+				<scrollmod_desc />
+				<scroll_display>after</scroll_display>
+				<scroll_menuassignment>all</scroll_menuassignment>
+				<scroll_typesource>scroll</scroll_typesource>
+				<itemvisiable>10</itemvisiable>
+				<isvertical>0</isvertical>
+				<enable_brandnavmodule>1</enable_brandnavmodule>
+				<brandnav_title>Shop By Brand</brandnav_title>
+				<isdropdown>0</isdropdown>
+				<brandnav_menuassignment>all</brandnav_menuassignment>
+				<brandnav_title>Brand Categories</brandnav_title>
+				<brandnav_position>right</brandnav_position>
+				<brandnav_customposition />
+				<brandnav_display />
+				
+			</module_setting>
+			<carousel_setting>
+				<enable_owl_carousel>0</enable_owl_carousel>
+				<auto_play>0</auto_play>
+				<interval>3000</interval>
+				<rtl>0</rtl>
+				<show_navigator>1</show_navigator>
+				<show_pager>1</show_pager>
+				<loop>1</loop>
+				<mouse_drag>1</mouse_drag>
+				<touch_drag>1</touch_drag>
+				<slide_by>1</slide_by>
+				<margin_item>0</margin_item>
+				<mobile_items>1</mobile_items>
+				<tablet_items>2</tablet_items>
+				<portrait_items>3</portrait_items>
+				<large_items>5</large_items>
+			</carousel_setting>
+        </ves_brand><alekseon_adminNotification>
             <general>
                 <enabled>1</enabled>
                 <frequency>12</frequency>
@@ -6893,7 +7481,169 @@ T: {{var telephone}}
                 <remove_failed_after>30</remove_failed_after>
                 <confidential_templates>admin_emails_forgot_email_template,customer_create_account_email_template,customer_create_account_email_confirmation_template,customer_password_forgot_email_template,customer_password_remind_email_template</confidential_templates>
             </sent_email_history>
-        </alekseon_mailTransport><marketplace>
+        </alekseon_mailTransport><themesettings>
+			<general>
+				<default_skin>default</default_skin>
+				<direction>ltr</direction>
+				<enable_paneltool>1</enable_paneltool>
+			</general>
+			<header>
+				<layout>header</layout>
+				<sticky>1</sticky>
+				<show_currency>1</show_currency>
+				<show_language>1</show_language>
+				<top_links>1</top_links>
+				<enable_customlogo>0</enable_customlogo>
+			</header>
+			<category>
+				<show_name>1</show_name>
+				<show_description>1</show_description>
+				<show_image>1</show_image>
+				<default_image />
+				<show_toptoolbar>0</show_toptoolbar>
+				<show_bottomtoolbar>0</show_bottomtoolbar>
+			</category>
+			<category_product>
+				<show_name>1</show_name>
+				<display_name_single_line>0</display_name_single_line>
+				<show_short_description>1</show_short_description>
+				<short_max_char />
+				<show_learnmore>0</show_learnmore>
+				<show_price>1</show_price>
+				<show_rating>1</show_rating>
+				<show_addtolinks>1</show_addtolinks>
+				<show_countdowntimer>1</show_countdowntimer>
+				<aspect_ratio>1</aspect_ratio>
+				<image_width>300</image_width>
+				<alt_image>1</alt_image>
+				<alt_image_column>position</alt_image_column>
+				<alt_image_column_value>1</alt_image_column_value>
+			</category_product>
+			<category_grid>
+				<column_count>3</column_count>
+				<equal_height>0</equal_height>
+				<equal_height_type>maximun</equal_height_type>
+				<hover_effect>1</hover_effect>
+				<disable_hover_effect>480</disable_hover_effect>
+			</category_grid>
+			<product_page>
+				<enable_zoom>1</enable_zoom>
+				<zoom_type>window</zoom_type>
+				<zoom_lenssize>200</zoom_lenssize>
+				<zoom_windowwidth>400</zoom_windowwidth>
+				<zoom_windowheight>400</zoom_windowheight>
+				<zoom_scroll>0</zoom_scroll>
+				<zoom_easing>1</zoom_easing>
+				<zoom_easing_type>swing</zoom_easing_type>
+				<zoom_easingduration>300</zoom_easingduration>
+				<zoom_lensfadein>200</zoom_lensfadein>
+				<zoom_lensfadeout>200</zoom_lensfadeout>
+				<zoom_windowfadein>200</zoom_windowfadein>
+				<zoom_windowfadeout>200</zoom_windowfadeout>
+				<zoom_bordersize>1</zoom_bordersize>
+				<zoom_lensshape>basic</zoom_lensshape>
+				<zoom_containlenszoom>1</zoom_containlenszoom>
+				<zoom_lensopacity>0.8</zoom_lensopacity>
+				<zoom_tint>1</zoom_tint>
+				<zoom_tintfadein>200</zoom_tintfadein>
+				<zoom_tintfadeout>200</zoom_tintfadeout>
+				<zoom_tintopacity>0.8</zoom_tintopacity>
+				<zoom_cursor>default</zoom_cursor>
+				<enable_image_popup>1</enable_image_popup>
+				<enable_loop>1</enable_loop>
+				<enable_autoplay>1</enable_autoplay>
+				<playspeed>500</playspeed>
+				<additional_image_width>88</additional_image_width>
+				<additional_image_height>132</additional_image_height>
+				<additional_image_layout>horizontal_bottom</additional_image_layout>
+				<visible>5</visible>
+				<speed>1000</speed>
+				<scroll>1</scroll>
+				<auto_scroll>1000</auto_scroll>
+				<non_circular>1</non_circular>
+				<easing>swing</easing>
+				<mouse_wheel>1</mouse_wheel>
+				<tabs_mode>tabs</tabs_mode>
+				<enable_description>1</enable_description>
+				<enable_addtioninfo>1</enable_addtioninfo>
+				<enable_reviews>1</enable_reviews>
+				<enable_tags>1</enable_tags>
+				<enable_related>0</enable_related>
+				<enable_upsell>0</enable_upsell>
+				<related_count>8</related_count>
+				<related_breakpoints>[0, 4], [320,1], [480, 1], [768, 2],  [960, 3], [1280, 4]</related_breakpoints>
+				<upsell_count>8</upsell_count>
+				<upsell_breakpoints>[0, 4], [320,1], [480, 1], [768, 2],  [960, 3], [1280, 4]</upsell_breakpoints>
+				<show_sku>1</show_sku>
+				<show_social>1</show_social>
+				<show_countdowntimer>1</show_countdowntimer>
+				<show_addtolinks>1</show_addtolinks>
+			</product_page>
+			<product_labels>
+				<new>1</new>
+				<sale>1</sale>
+			</product_labels>
+			<product_slider>
+				<show_name>1</show_name>
+				<display_name_single_line>0</display_name_single_line>
+				<show_short_description>1</show_short_description>
+				<short_max_char>1</short_max_char>
+				<show_learnmore>0</show_learnmore>
+				<show_price>1</show_price>
+				<show_rating>1</show_rating>
+				<show_addtolinks>1</show_addtolinks>
+				<show_countdowntimer>1</show_countdowntimer>
+				<aspect_ratio>1</aspect_ratio>
+				<image_width>300</image_width>
+				<alt_image>1</alt_image>
+				<alt_image_column>position</alt_image_column>
+				<alt_image_column_value>2</alt_image_column_value>
+			</product_slider>
+			<contacts_page>
+				<enable_googlemap>1</enable_googlemap>
+				<address>112 Trần Bình, Mai Dịch, Cầu Giấy, Hà Nội, Vietnam</address>
+				<location_lng>105.77577840000004</location_lng>
+				<location_lat>21.0309091</location_lat>
+				<map_zoom>15</map_zoom>
+				<marker_content_width>300</marker_content_width>
+				<marker_content_height>300</marker_content_height>
+			</contacts_page>
+			<footer>
+				<enable_footer_top>1</enable_footer_top>
+				<enable_footer_center>0</enable_footer_center>
+				<enable_footer_bottom>0</enable_footer_bottom>
+				<scroll_top>1</scroll_top>
+				<enable_coppyright>1</enable_coppyright>
+				<enable_custom_coppyright>0</enable_custom_coppyright>
+			</footer>
+			<cart_page>
+				<crosssel_count>8</crosssel_count>
+				<crosssell_breakpoints>[0, 1], [320, 2], [480, 3], [960, 4], [1280, 5]</crosssell_breakpoints>
+			</cart_page>
+			<magento_blocks>
+				<newsletter>1</newsletter>
+				<related_products_checkbox>1</related_products_checkbox>
+			</magento_blocks>
+			<customization>
+				<enable_custom_css>0</enable_custom_css>
+			</customization>
+			<compression>
+				<compress_css_type>1</compress_css_type>
+				<compress_js_type>1</compress_js_type>
+			</compression>
+		</themesettings><productlist>
+            <general_setting>
+                <show>1</show>
+                <enable_owl>1</enable_owl>
+                <enable_countdown_js>1</enable_countdown_js>
+            </general_setting>
+            <deals_setting>
+                <show_discount>1</show_discount>
+                <show_save_price>1</show_save_price>
+                <show_number_bought>1</show_number_bought>
+                <show_countdown_timer>1</show_countdown_timer>
+            </deals_setting>
+        </productlist><marketplace>
             <product>
                 <status>2</status>
                 <visibility>1</visibility>
@@ -6902,7 +7652,238 @@ T: {{var telephone}}
         </marketplace><seller_page>
             <attribute_name>seller_id</attribute_name>
             <seo_display>marketplace</seo_display>
-        </seller_page></default><varien>
+        </seller_page><blog>
+            <blog>
+                <enabled>1</enabled>
+                <title>Blog</title>
+                <footerEnabled>1</footerEnabled>
+                <menuRight>1</menuRight>
+                <topEnabled>1</topEnabled>
+                <blogcrumbs>1</blogcrumbs>
+                <recent>5</recent>
+                <dateformat>full</dateformat>
+                <layout>page/2columns-right.phtml</layout>
+                <comments>1</comments>
+                <useshortcontent>1</useshortcontent>
+                <rss>1</rss>
+                <rssimage>images/BlogLogo.png</rssimage>
+                <parse_cms>0</parse_cms>
+                <categories_urls>1</categories_urls>
+            </blog>
+            <comments>
+                <page_count>10</page_count>
+            </comments>
+            <menu>
+                <category>1</category>
+                <tagcloud_size>10</tagcloud_size>
+            </menu>
+        </blog><sharing_tool>
+            <general>
+                <enabled>1</enabled>
+                <menuvx>300</menuvx>                
+            </general>
+            <button_style>
+                <button_set>style_3</button_set>                
+            </button_style>
+            <compact>
+                <advanced>0</advanced>                
+            </compact>
+            <api>
+            	<ui_click>1</ui_click>
+            	<ui_hover_direction>0</ui_hover_direction>
+            	<ui_open_windows>0</ui_open_windows>
+            	<ui_language>auto</ui_language>
+            	<ui_use_css>1</ui_use_css>
+            	<data_track_clickback>1</data_track_clickback>
+            	<address_bar_share>0</address_bar_share>
+            </api>
+        </sharing_tool><ajaxcart>
+			<viewsetting>
+				<enableview>1</enableview>
+				<usejquery>1</usejquery>
+				<enableitemupdate>1</enableitemupdate>
+				<enableupdate>0</enableupdate>
+				<enablecheckout>1</enablecheckout>
+				<enableclear>0</enableclear>
+				<linkcartclass>ul.links a.top-link-cart</linkcartclass>
+				<imagewidth>65</imagewidth>
+				<imageheight>65</imageheight>
+                <ajaxcart_left>0</ajaxcart_left>
+                <ajaxcart_width>320</ajaxcart_width>
+                <background_color>FFFFFF</background_color>
+				<border_size>0</border_size>
+                <border_color>DDDDDD</border_color>
+                <enableicon>0</enableicon>
+				<carticon>cart.png</carticon>
+				<boxshadow>0 0 3px #DDDDDD</boxshadow>
+				<themeoptions>default</themeoptions>
+            </viewsetting>
+			
+			<optionview>
+                <background_color>FFFFFF</background_color>
+				<border_size>5</border_size>
+                <border_color>DDDDDD</border_color>
+            </optionview>			
+			
+        </ajaxcart><megamenu>
+	    	<mainmenu>
+				<enabled>1</enabled>
+	    		<home>0</home>         
+				<home_color />	
+				<home_background />	
+                <width_menu>950</width_menu>
+                <width_thumbnail_category>24</width_thumbnail_category>
+                <height_thumbnail_category>29</height_thumbnail_category>
+	    	</mainmenu>
+    	</megamenu><subscriptionchecker>
+            <ignored_sections>
+                <tm_easytabs />
+            </ignored_sections>
+        </subscriptionchecker><tm_easytabs>
+            <general>
+                <enabled>0</enabled>
+                <update_url_hash>1</update_url_hash>
+                <show_anchor>0</show_anchor>
+                <config><![CDATA[
+{
+   "1":{
+      "id":1,
+      "title":"Product Description",
+      "alias":"description_tabbed",
+      "block":"easytabs\/tab_product_description",
+      "custom_option":null,
+      "template":"tm\/easytabs\/tab\/catalog\/product\/view\/description.phtml",
+      "unset":"product.info::description",
+      "handles":"catalog_product_view",
+      "sort_order":1,
+      "status":true,
+      "store_id":[
+         "0"
+      ]
+   },
+   "2":{
+      "id":2,
+      "title":"Additional Information",
+      "alias":"additional_tabbed",
+      "block":"easytabs\/tab_product_additional",
+      "custom_option":null,
+      "template":"tm\/easytabs\/tab\/catalog\/product\/view\/attributes.phtml",
+      "unset":"product.info::additional",
+      "handles":"catalog_product_view",
+      "sort_order":2,
+      "status":true,
+      "store_id":[
+         "0"
+      ]
+   },
+   "3":{
+      "id":3,
+      "title":"We Also Recommend",
+      "alias":"upsell_products_tabbed",
+      "block":"easytabs\/tab_product_upsell",
+      "custom_option":null,
+      "template":"catalog\/product\/list\/upsell.phtml",
+      "unset":"product.info::upsell_products",
+      "handles":"catalog_product_view",
+      "sort_order":4,
+      "status":true,
+      "store_id":[
+         "0"
+      ]
+   },
+   "4":{
+      "id":4,
+      "title":"Related Products",
+      "alias":"related_tabbed",
+      "block":"easytabs\/tab_product_related",
+      "custom_option":null,
+      "template":"tm\/easytabs\/tab\/catalog\/product\/related.phtml",
+      "unset":"right::catalog.product.related,product.info::related_products",
+      "handles":"catalog_product_view",
+      "sort_order":5,
+      "status":true,
+      "store_id":[
+         "0"
+      ]
+   },
+   "5":{
+      "id":5,
+      "title":"Tags&nbsp;({{eval code=\"getCount()\"}})",
+      "alias":"tags_tabbed",
+      "block":"easytabs\/tab_product_tags",
+      "custom_option":null,
+      "template":"tm\/easytabs\/tab\/tag\/product\/list.phtml",
+      "unset":"product.info.additional::product_tag_list",
+      "handles":"catalog_product_view",
+      "sort_order":6,
+      "status":true,
+      "store_id":[
+         "0"
+      ]
+   },
+   "6":{
+      "id":6,
+      "title":"Reviews&nbsp;({{eval code=\"getReviewsCollection()->count()\"}})",
+      "alias":"review_tabbed",
+      "block":"easytabs\/tab_product_review",
+      "custom_option":null,
+      "template":"tm\/easytabs\/tab\/review\/product\/view\/list.phtml",
+      "unset":"product.info::reviews",
+      "handles":"catalog_product_view",
+      "sort_order":7,
+      "status":true,
+      "store_id":[
+         "0"
+      ]
+   },
+   "7":{
+      "id":7,
+      "title":"electronics-landing",
+      "alias":"cms",
+      "block":"easytabs\/tab_cms",
+      "custom_option":"electronics-landing",
+      "template":"tm\/easytabs\/tab\/cms.phtml",
+      "unset":"",
+      "sort_order":8,
+      "status":false,
+      "store_id":[
+         "0"
+      ]
+   },
+   "8":{
+      "id":8,
+      "title":"Color Attribute",
+      "alias":"attribute",
+      "block":"easytabs\/tab_attribute",
+      "custom_option":"color",
+      "template":"tm\/easytabs\/tab\/catalog\/product\/attribute.phtml",
+      "unset":"",
+      "handles":"catalog_product_view",
+      "sort_order":9,
+      "status":false,
+      "store_id":[
+         "0"
+      ]
+   },
+   "9":{
+      "id":9,
+      "title":"Recurring Profile",
+      "alias":"recurring_info",
+      "block":"easytabs\/tab_template",
+      "custom_option":"payment\/catalog_product_view_profile",
+      "template":"payment\/catalog\/product\/view\/profile\/schedule.phtml",
+      "unset":"product.info::recurring_info",
+      "handles":"catalog_product_view",
+      "sort_order":10,
+      "status":true,
+      "store_id":[
+         "0"
+      ]
+   }
+}
+                ]]></config>
+            </general>
+        </tm_easytabs></default><varien>
         <class>Varien</class>
     </varien><modules>
         <Mage_Core>
@@ -7034,26 +8015,69 @@ T: {{var telephone}}
              <version>1.0.0.0.0</version>
         </Mage_CurrencySymbol><Mage_ImportExport>
             <version>1.6.0.2</version>
-        </Mage_ImportExport><Gerencianet_Transparent>
+        </Mage_ImportExport><JakeSharp_Waterlee>
+            <version>1.0.0</version>
+            <depends>
+                <!-- no dependencies -->
+            </depends>
+        </JakeSharp_Waterlee><Cmsmart_Ajaxsearch>
+            <version>0.1.0</version>
+        </Cmsmart_Ajaxsearch><Ves_Megamenu>  
+            <version>1.1.2</version>  
+        </Ves_Megamenu><Youama_Ajaxlogin>
+            <version>2.0.1</version>
+        </Youama_Ajaxlogin><Gerencianet_Transparent>
           <version>0.1.8</version>
-       </Gerencianet_Transparent><RicardoJustem_RicardoModel>
+       </Gerencianet_Transparent><LitExtension_SocialLogin>
+            <version>2.1.4</version>
+        </LitExtension_SocialLogin><RicardoJustem_RicardoModel>
 			<version>0.1.0</version>
 		</RicardoJustem_RicardoModel><Phoenix_Moneybookers>
             <version>1.6.0.0</version>
         </Phoenix_Moneybookers><Inchoo_PHP7>
             <version>1.0.3</version>
-        </Inchoo_PHP7><Alekseon_MailTransport>
+        </Inchoo_PHP7><Ves_Brand>  
+			<version>1.2.0</version>  
+		</Ves_Brand><Alekseon_MailTransport>
             <version>0.1.4</version>
-        </Alekseon_MailTransport><RicardoMartins_PagSeguro>
+        </Alekseon_MailTransport><Ves_Themesettings>
+			<version>1.0.1</version>
+		</Ves_Themesettings><EcommerceTeam_CloudZoom>
+            <version>1.1.3</version>
+        </EcommerceTeam_CloudZoom><RicardoMartins_PagSeguro>
             <version>2.5.2</version>
-        </RicardoMartins_PagSeguro><Cybage_Marketplace>
+        </RicardoMartins_PagSeguro><Ves_ProductList>
+            <version>1.0.1</version>
+        </Ves_ProductList><Cybage_Marketplace>
             <version>0.1.9</version>
-        </Cybage_Marketplace><PedroTeixeira_Correios>
+        </Cybage_Marketplace><AW_Blog>
+            <version>1.3.3</version>
+        </AW_Blog><Tm_NewsletterPopup>
+			<version>0.1.0</version>		
+		</Tm_NewsletterPopup><Ves_Ajax>
+			<version>1.0.0</version>
+		</Ves_Ajax><AddThis_SharingTool>
+           <version>1.0.0</version>
+       </AddThis_SharingTool><Foungento_Responsive>
+            <version>0.0.1</version>
+        </Foungento_Responsive><Cmsmart_AjaxCart>
+            <version>1.0.0</version>
+        </Cmsmart_AjaxCart><Thirty4_CatalogSale>
+            <version>0.6.3</version>
+        </Thirty4_CatalogSale><PedroTeixeira_Correios>
             <version>4.6.0</version>
             <depends>
                 <Mage_Shipping />
             </depends>
-        </PedroTeixeira_Correios></modules><frontend>
+        </PedroTeixeira_Correios><Cmsmart_Megamenu>
+            <version>0.1.0</version>
+        </Cmsmart_Megamenu><TM_EasyTabs>
+            <version>2.3.5</version>
+        </TM_EasyTabs><Tm_GoogleMap>
+			<version>0.1.0</version>		
+		</Tm_GoogleMap><Meanbee_Tinymce5>
+			<version>0.1.1</version>
+		</Meanbee_Tinymce5></modules><frontend>
         <routers>
             <core>
                 <use>standard</use>
@@ -7092,8 +8116,8 @@ T: {{var telephone}}
                     <module>Mage_Customer</module>
                     <frontName>customer</frontName>
                 <modules>
-                        <cybage_marketplace before="Mage_Customer">Cybage_Marketplace</cybage_marketplace>
-                    </modules></args>
+                        <youama_ajaxlogin before="Mage_Customer">Youama_Ajaxlogin</youama_ajaxlogin>
+                    <cybage_marketplace before="Mage_Customer">Cybage_Marketplace</cybage_marketplace></modules></args>
             </customer><catalogsearch>
                 <use>standard</use>
                 <args>
@@ -7237,38 +8261,106 @@ T: {{var telephone}}
                 <args>
                     <module>Mage_Newsletter</module>
                     <frontName>newsletter</frontName>
-                </args>
+                <modules>
+						<newsletterpopup before="Mage_Newsletter">Tm_NewsletterPopup</newsletterpopup>
+					</modules></args>
             </newsletter><oauth>
                 <use>standard</use>
                 <args>
                     <module>Mage_Oauth</module>
                     <frontName>oauth</frontName>
                 </args>
-            </oauth><gerencianet_transparent>
+            </oauth><ajaxsearch>
+                <use>standard</use>
+                <args>
+                    <module>Cmsmart_Ajaxsearch</module>
+                    <frontName>ajaxsearch</frontName>
+                </args>
+            </ajaxsearch><vesmegamenu>
+                <use>standard</use>
+                <args>
+                    <module>Ves_Megamenu</module>
+                    <frontName>vesmegamenu</frontName>
+                </args>
+            </vesmegamenu><youama_ajaxlogin>
+                <use>standard</use>
+                <args>
+                    <module>Youama_Ajaxlogin</module>
+                    <frontName>ajaxlogin</frontName>
+                </args>
+            </youama_ajaxlogin><gerencianet_transparent>
 		    <use>standard</use>
 		    <args>
 		      <module>Gerencianet_Transparent</module>
 		      <frontName>gerencianet</frontName>
 		    </args>
-		  </gerencianet_transparent><moneybookers>
+		  </gerencianet_transparent><le_sociallogin>
+                <use>standard</use>
+                <args>
+                    <module>LitExtension_SocialLogin</module>
+                    <frontName>le_sociallogin</frontName>
+                </args>
+            </le_sociallogin><moneybookers>
                 <use>standard</use>
                 <args>
                     <module>Phoenix_Moneybookers</module>
                     <frontName>moneybookers</frontName>
                 </args>
-            </moneybookers><ricardomartins_pagseguro>
+            </moneybookers><brand>
+                <use>standard</use>
+                <args>
+                    <module>Ves_Brand</module>
+                    <frontName>venusbrand</frontName>
+                </args>
+            </brand><themesettings>
+				<use>standard</use>
+				<args>
+					<module>Ves_Themesettings</module>
+					<frontName>themesettings</frontName>
+				</args>
+			</themesettings><ricardomartins_pagseguro>
                 <use>standard</use>
                 <args>
                     <module>RicardoMartins_PagSeguro</module>
                     <frontName>pseguro</frontName>
                 </args>
-            </ricardomartins_pagseguro><marketplace>
+            </ricardomartins_pagseguro><productlist>
+                <use>standard</use>
+                <args>
+                    <module>Ves_ProductList</module>
+                    <frontName>productlist</frontName>
+                </args>
+            </productlist><marketplace>
                 <use>standard</use>
                 <args>
                     <module>Cybage_Marketplace</module>
                     <frontName>marketplace</frontName>
                 </args>
-            </marketplace></routers>
+            </marketplace><blog>
+                <use>standard</use>
+                <args>
+                    <module>AW_Blog</module>
+                    <frontName>blog</frontName>
+                </args>
+            </blog><ajax>
+				<use>standard</use>
+				<args>
+					<module>Ves_Ajax</module>
+					<frontName>ajax</frontName>
+				</args>
+			</ajax><ajaxcart>
+                <use>standard</use>
+                <args>
+                    <module>Cmsmart_AjaxCart</module>
+                    <frontName>ajaxcart</frontName>
+                </args>
+            </ajaxcart><catalogsale>
+          <use>standard</use>
+          <args>
+            <module>Thirty4_CatalogSale</module>
+            <frontName>catalogsale</frontName>
+          </args>
+        </catalogsale></routers>
         <translate>
             <modules>
                 <Mage_Core>
@@ -7444,15 +8536,47 @@ T: {{var telephone}}
                     <files>
                         <default>Mage_Oauth.csv</default>
                     </files>
-                </Mage_Oauth><Phoenix_Moneybookers>
+                </Mage_Oauth><Ves_Megamenu>
+                    <files>
+                        <default>Ves_Megamenu.csv</default>
+                    </files>
+                </Ves_Megamenu><youama_ajaxlogin>
+                    <files>
+                        <default>Youama_Ajaxlogin.csv</default>
+                    </files>
+                </youama_ajaxlogin><LitExtension_SocialLogin>
+                    <files>
+                        <default>LitExtension_SocialLogin.csv</default>
+                    </files>
+                </LitExtension_SocialLogin><Phoenix_Moneybookers>
                     <files>
                         <default>Phoenix_Moneybookers.csv</default>
                     </files>
-                </Phoenix_Moneybookers><ricardomartins_pagseguro>
+                </Phoenix_Moneybookers><Ves_Brand>
+					<files>
+						<default>Ves_Brand.csv</default>
+					</files>
+				</Ves_Brand><Ves_Themesettings>
+					<files>
+						<default>Ves_Themesettings.csv</default>
+					</files>
+				</Ves_Themesettings><ricardomartins_pagseguro>
                     <files>
                         <default>RicardoMartins_PagSeguro.csv</default>
                     </files>
-                </ricardomartins_pagseguro></modules>
+                </ricardomartins_pagseguro><AW_Blog>
+                    <files>
+                        <default>AW_Blog.csv</default>
+                    </files>
+                </AW_Blog><Ves_Ajax>
+					<files>
+						<default>Ves_Ajax.csv</default>
+					</files>
+				</Ves_Ajax><TM_EasyTabs>
+                    <files>
+                        <default>TM_EasyTabs.csv</default>
+                    </files>
+                </TM_EasyTabs></modules>
         </translate>
         <layout>
             <updates>
@@ -7537,13 +8661,47 @@ T: {{var telephone}}
                     <file>oauth.xml</file>
                 </oauth><pagecache>
                     <file>pagecache.xml</file>
-                </pagecache><gerencianet_transparent>
+                </pagecache><ajaxsearch>
+                    <file>cmsmart/ajaxsearch.xml</file>
+                </ajaxsearch><ves_megamenu>
+                    <file>ves_megamenu.xml</file>
+                </ves_megamenu><youama_ajaxlogin>
+                    <file>youama_ajaxlogin.xml</file>
+                </youama_ajaxlogin><gerencianet_transparent>
 		        	<file>gerencianet_transparent.xml</file>
-		    	</gerencianet_transparent><moneybookers>
+		    	</gerencianet_transparent><le_sociallogin>
+                    <file>le_sociallogin.xml</file>
+                </le_sociallogin><moneybookers>
                     <file>moneybookers.xml</file>
-                </moneybookers><marketplace>
+                </moneybookers><brand module="ves_brand">
+					<file>ves_brand.xml</file>
+				</brand><themesettings>
+					<file>ves_themesettings.xml</file>
+				</themesettings><ecommerceteam_cloudzoom module="ecommerceteam_cloudzoom">
+                    <file>ecommerceteam-cloudzoom.xml</file>
+                </ecommerceteam_cloudzoom><productlist>
+                    <file>ves_productlist.xml</file>
+                </productlist><marketplace>
                     <file>marketplace.xml</file>
-                </marketplace></updates>
+                </marketplace><blog module="AW_Blog">
+                    <file>aw_blog.xml</file>
+                </blog><newsletterpopup>
+					<file>tm_newsletterpopup.xml</file>
+				</newsletterpopup><ajax>
+					<file>ves_ajax.xml</file>
+				</ajax><sharingtool>
+                    <file>sharingtool.xml</file>
+                </sharingtool><ajaxcart>
+                    <file>cmsmart/cmsmart_ajaxcart.xml</file>
+                </ajaxcart><catalogsale>
+            <file>catalogsale.xml</file>
+          </catalogsale><megamenu module="Cmsmart_Megamenu">
+                    <file>cmsmart/megamenu/cmsmart_megamenu.xml</file>
+                </megamenu><easytabs>
+                    <file>tm/easytabs.xml</file>
+                </easytabs><googlemap>
+					<file>tm_googlemap.xml</file>
+				</googlemap></updates>
         </layout>
     <secure_url>
             <install>/install/wizard/checkSecureHost</install>
@@ -7697,7 +8855,11 @@ T: {{var telephone}}
                 <persistent>
                         <class>persistent/observer</class>
                         <method>applyPersistentData</method>
-                    </persistent></observers>
+                    </persistent><ves_brand_observer>
+						<type>singleton</type>
+						<class>Ves_Brand_Model_Observer</class>
+						<method>beforeRender</method>
+					</ves_brand_observer></observers>
             </controller_action_layout_generate_blocks_after><catalog_product_type_prepare_full_options>
                 <observers>
                     <payment_recurring_profile_prepare_options>
@@ -8127,7 +9289,14 @@ T: {{var telephone}}
                         <method>customerDeleted</method>
                     </newsletter_subscribe_observer>
                 </observers>
-            </customer_delete_after><sales_order_place_after>
+            </customer_delete_after><controller_front_send_response_before>
+                <observers>
+                    <ajaxsearch>
+                        <class>searchautocomplete/processor</class>
+                        <method>cacheResponse</method>
+                    </ajaxsearch>
+                </observers>
+            </controller_front_send_response_before><sales_order_place_after>
 		      <observers>
 		          <gerencianet_transparent_updatecharge>
 		              <type>model</type>
@@ -8149,7 +9318,11 @@ T: {{var telephone}}
                         <class>ricardomartins_pagseguro/observer</class>
                         <method>addDirectPaymentBlock</method>
                     </pagseguro>
-                </observers>
+                <sharingtool>
+                                               <type>singleton</type>
+                                               <class>sharingtool/observer</class>
+                                               <method>addButtonsHtml</method>
+                                       </sharingtool></observers>
             </core_block_abstract_to_html_after><checkout_cart_product_add_after>
                 <observers>
                     <checkout_product_observer>
@@ -8158,7 +9331,15 @@ T: {{var telephone}}
                         <method>saveSellerId</method>
                     </checkout_product_observer>
                 </observers>
-            </checkout_cart_product_add_after></events><default>
+            </checkout_cart_product_add_after><core_layout_block_create_after>
+                <observers>
+                    <megamenu>
+                        <type>singleton</type>
+                        <class>megamenu/observer</class>
+                        <method>checkLayouts</method>
+                    </megamenu>
+                </observers>
+            </core_layout_block_create_after></events><default>
             <router>catalog</router>
         </default><catalog>
             <per_page_values>
@@ -8435,11 +9616,35 @@ T: {{var telephone}}
                      <files>
                           <default>Mage_CurrencySymbol.csv</default>
                      </files>
-                </Mage_CurrencySymbol><Phoenix_Moneybookers>
+                </Mage_CurrencySymbol><Ves_Megamenu>
+                    <files>
+                        <default>Ves_Megamenu.csv</default>
+                    </files>
+                </Ves_Megamenu><RicardoJustem_RicardoModel>
+					<files>
+						<default>RicardoJustem_RicardoModel.csv</default>
+					</files>
+				</RicardoJustem_RicardoModel><Phoenix_Moneybookers>
                     <files>
                         <default>Phoenix_Moneybookers.csv</default>
                     </files>
-                </Phoenix_Moneybookers></modules>
+                </Phoenix_Moneybookers><Ves_Brand>
+					<files>
+						<default>Ves_Brand.csv</default>
+					</files>
+				</Ves_Brand><AW_Blog>
+                    <files>
+                        <default>AW_Blog.csv</default>
+                    </files>
+                </AW_Blog><Cmsmart_AjaxCart>
+                    <files>
+                        <default>Cmsmart_AjaxCart.csv</default>
+                    </files>
+                </Cmsmart_AjaxCart><TM_EasyTabs>
+                    <files>
+                        <default>TM_EasyTabs.csv</default>
+                    </files>
+                </TM_EasyTabs></modules>
         </translate>
         <events>
             <cms_wysiwyg_config_prepare>
@@ -8819,7 +10024,31 @@ T: {{var telephone}}
                         <method>customerDeleted</method>
                     </newsletter_subscribe_observer>
                 </observers>
-            </customer_delete_after><catalog_product_attribute_update_before>
+            </customer_delete_after><controller_action_postdispatch_adminhtml_system_config_save>
+				<observers>
+					<themesettings>
+						<type>singleton</type>
+						<class>themesettings/observer</class>
+						<method>hookTo_controllerActionPostdispatchAdminhtmlSystemConfigSave</method>
+					</themesettings>
+				</observers>
+			</controller_action_postdispatch_adminhtml_system_config_save><store_edit>
+				<observers>
+					<themesettings>
+						<type>singleton</type>
+						<class>themesettings/observer</class>
+						<method>hookTo_storeEdit</method>
+					</themesettings>
+				</observers>
+			</store_edit><store_add>
+				<observers>
+					<themesettings>
+						<type>singleton</type>
+						<class>themesettings/observer</class>
+						<method>hookTo_storeAdd</method>
+					</themesettings>
+				</observers>
+			</store_add><catalog_product_attribute_update_before>
                 <observers>
                     <marketplace>
                         <type>singleton</type>
@@ -8891,15 +10120,29 @@ T: {{var telephone}}
                     <file>currencysymbol.xml</file>
                 </currencysymbol><importexport>
                     <file>importexport.xml</file>
-                </importexport><moneybookers>
+                </importexport><ajaxsearch>
+					<file>cmsmart/ajaxsearch.xml</file>
+				</ajaxsearch><ves_megamenu>
+                    <file>ves_megamenu.xml</file>
+                </ves_megamenu><moneybookers>
                     <file>moneybookers.xml</file>
                 </moneybookers><alekseon_mailTransport>
                     <file>alekseon/mailTransport.xml</file>
-                </alekseon_mailTransport><ricardomartins_pagseguro>
+                </alekseon_mailTransport><themesettings>
+					<file>ves_themesettings.xml</file>
+				</themesettings><ricardomartins_pagseguro>
                     <file>ricardomartins_pagseguro/pagseguro.xml</file>
-                </ricardomartins_pagseguro><marketplace>
+                </ricardomartins_pagseguro><productlist>
+                    <file>ves_productlist.xml</file>
+                </productlist><marketplace>
                     <file>marketplace.xml</file>
-                </marketplace></updates>
+                </marketplace><blog module="AW_Blog">
+                    <file>aw_blog.xml</file>
+                </blog><easytabs>
+                    <file>tm/easytabs.xml</file>
+                </easytabs><tinymce5>
+                    <file>meanbee/tinymce5.xml</file>
+                </tinymce5></updates>
         </layout><global_search>
             <products>
                 <class>adminhtml/search_catalog</class>
@@ -8980,14 +10223,81 @@ T: {{var telephone}}
                                         <moneybookers translate="title" module="moneybookers">
                                             <title>Moneybookers Settings</title>
                                         </moneybookers>
-                                    </children>
+                                    <blog>
+                                            <title>aheadWorks Blog Section</title>
+                                        </blog><newsletterpopup translate="title" module="newsletterpopup">
+											<title>Newsletter Popup Section</title>
+										</newsletterpopup><sharing_tool translate="title" module="sharingtool">
+                                            <title>AddThis</title>
+                                            <sort_order>52</sort_order>
+                                        </sharing_tool><ajaxcart translate="title" module="ajaxcart">
+											<title>Ajax Cart Settings</title>
+											<sort_order>52</sort_order>
+										</ajaxcart><googlemap translate="title" module="googlemap">
+											<title>Tm_GoogleMap Section</title>
+										</googlemap><tinymce5 translate="title" module="tinymce5">
+											<title>WYSIWYG HTML 5</title>
+										</tinymce5></children>
                                 </config>
                             </children>
                         </system>
-                    </children>
+                    <blog>
+                            <title>Blog</title>
+                            <sort_order>70</sort_order>
+                            <children>
+                                <posts>
+                                    <title>Manage Posts</title>
+                                    <sort_order>0</sort_order>
+                                </posts>
+                                <comment>
+                                    <title>Manage Comments</title>
+                                    <sort_order>1</sort_order>
+                                </comment>
+                                <cat>
+                                    <title>Manage Categories</title>
+                                    <sort_order>2</sort_order>
+                                </cat>
+                            </children>
+                        </blog></children>
                 </admin>
-            </resources>
-        </acl></adminhtml><install>
+            <all>
+                    
+                <title>Allow everything</title></all></resources>
+        <all>
+				<title>Allow Everything</title>
+			</all></acl><menu>
+            <blog module="blog">
+                <title>Blog</title>
+                <sort_order>71</sort_order>
+                <children>
+                    <new module="blog">
+                        <title>Add Post</title>
+                        <sort_order>0</sort_order>
+                        <action>blog_admin/manage_blog/new</action>
+                    </new>
+                    <posts module="blog">
+                        <title>Posts</title>
+                        <sort_order>10</sort_order>
+                        <action>blog_admin/manage_blog/index</action>
+                    </posts>
+                    <comment module="blog">
+                        <title>Comments</title>
+                        <sort_order>20</sort_order>
+                        <action>blog_admin/manage_comment</action>
+                    </comment>
+                    <cat module="blog">
+                        <title>Categories</title>
+                        <sort_order>30</sort_order>
+                        <action>blog_admin/manage_cat</action>
+                    </cat>
+                    <settings translate="title" module="blog">
+                        <title>Settings</title>
+                        <action>adminhtml/system_config/edit/section/blog</action>
+                        <sort_order>40</sort_order>
+                    </settings>
+                </children>
+            </blog>
+        </menu></adminhtml><install>
         <translate>
             <modules>
                 <Mage_Core>
@@ -9228,7 +10538,14 @@ T: {{var telephone}}
                 <run>
                     <model>alekseon_mailTransport/observer::removeOldSentEmails</model>
                 </run>
-            </alekseon_remove_old_sent_emails><pendingorder_send_all>
+            </alekseon_remove_old_sent_emails><productlist_rule_apply_all>
+                <schedule>
+                    <cron_expr>*/5 * * * *</cron_expr>
+                </schedule>
+                <run>
+                    <model>productlist/observer::applyAllRuleByCronTab</model>
+                </run>
+            </productlist_rule_apply_all><pendingorder_send_all>
                 <schedule>
                     <cron_expr>0 1 * * *</cron_expr>
                 </schedule>
@@ -9267,22 +10584,78 @@ T: {{var telephone}}
                         <method>processAdminFinalPrice</method>
                     </catalogrule>
                 </observers>
-            </catalog_product_get_final_price></events></crontab><admin>
+            </catalog_product_get_final_price><catalog_product_save_after>
+                <observers>
+                    <productlist>
+                        <class>productlist/observer</class>
+                        <method>applyAllRule</method>
+                    </productlist>
+                </observers>
+            </catalog_product_save_after></events></crontab><admin>
         <routers>
             <adminhtml>
                 <args>
                     <modules>
                         <Mage_Index before="Mage_Adminhtml">Mage_Index_Adminhtml</Mage_Index>
-                    <Mage_Paygate before="Mage_Adminhtml">Mage_Paygate_Adminhtml</Mage_Paygate><Mage_Paypal before="Mage_Adminhtml">Mage_Paypal_Adminhtml</Mage_Paypal><widget before="Mage_Adminhtml">Mage_Widget_Adminhtml</widget><Mage_Centinel before="Mage_Adminhtml">Mage_Centinel_Adminhtml</Mage_Centinel><captcha>Mage_Captcha_Adminhtml</captcha><Mage_Downloadable before="Mage_Adminhtml">Mage_Downloadable_Adminhtml</Mage_Downloadable><Mage_Bundle before="Mage_Adminhtml">Mage_Bundle_Adminhtml</Mage_Bundle><Mage_Compiler before="Mage_Adminhtml">Mage_Compiler_Adminhtml</Mage_Compiler><Mage_Authorizenet before="Mage_Adminhtml">Mage_Authorizenet_Adminhtml</Mage_Authorizenet><oauth before="Mage_Adminhtml">Mage_Oauth_Adminhtml</oauth><connect before="Mage_Adminhtml">Mage_Connect_Adminhtml</connect><api2 before="Mage_Adminhtml">Mage_Api2_Adminhtml</api2><Mage_PageCache before="Mage_Adminhtml">Mage_PageCache_Adminhtml</Mage_PageCache><currencysymbol>Mage_CurrencySymbol_Adminhtml</currencysymbol><importexport before="Mage_Adminhtml">Mage_ImportExport_Adminhtml</importexport><moneybookers after="Mage_Adminhtml">Phoenix_Moneybookers</moneybookers><alekseon_mailTransport before="Mage_Adminhtml">Alekseon_MailTransport_Adminhtml</alekseon_mailTransport><Cybage_Marketplace_Adminhtml before="Mage_Adminhtml">Cybage_Marketplace_Adminhtml</Cybage_Marketplace_Adminhtml></modules>
+                    <Mage_Paygate before="Mage_Adminhtml">Mage_Paygate_Adminhtml</Mage_Paygate><Mage_Paypal before="Mage_Adminhtml">Mage_Paypal_Adminhtml</Mage_Paypal><widget before="Mage_Adminhtml">Mage_Widget_Adminhtml</widget><Mage_Centinel before="Mage_Adminhtml">Mage_Centinel_Adminhtml</Mage_Centinel><captcha>Mage_Captcha_Adminhtml</captcha><Mage_Downloadable before="Mage_Adminhtml">Mage_Downloadable_Adminhtml</Mage_Downloadable><Mage_Bundle before="Mage_Adminhtml">Mage_Bundle_Adminhtml</Mage_Bundle><Mage_Compiler before="Mage_Adminhtml">Mage_Compiler_Adminhtml</Mage_Compiler><Mage_Authorizenet before="Mage_Adminhtml">Mage_Authorizenet_Adminhtml</Mage_Authorizenet><oauth before="Mage_Adminhtml">Mage_Oauth_Adminhtml</oauth><connect before="Mage_Adminhtml">Mage_Connect_Adminhtml</connect><api2 before="Mage_Adminhtml">Mage_Api2_Adminhtml</api2><Mage_PageCache before="Mage_Adminhtml">Mage_PageCache_Adminhtml</Mage_PageCache><currencysymbol>Mage_CurrencySymbol_Adminhtml</currencysymbol><importexport before="Mage_Adminhtml">Mage_ImportExport_Adminhtml</importexport><Ves_Megamenu after="Mage_Adminhtml">Ves_Megamenu</Ves_Megamenu><moneybookers after="Mage_Adminhtml">Phoenix_Moneybookers</moneybookers><Ves_Brand after="Mage_Adminhtml">Ves_Brand_Adminhtml</Ves_Brand><alekseon_mailTransport before="Mage_Adminhtml">Alekseon_MailTransport_Adminhtml</alekseon_mailTransport><Ves_ProductList after="Mage_Adminhtml">Ves_ProductList_Adminhtml</Ves_ProductList><Cybage_Marketplace_Adminhtml before="Mage_Adminhtml">Cybage_Marketplace_Adminhtml</Cybage_Marketplace_Adminhtml><Csmmart_Megamenu before="Mage_Adminhtml">Cmsmart_Megamenu</Csmmart_Megamenu><easytabs before="Mage_Adminhtml">TM_EasyTabs_Adminhtml</easytabs></modules>
                 <module>Mage_Adminhtml</module><frontName><![CDATA[admin]]></frontName></args>
-            <use>admin</use></adminhtml>
-        <marketplace>
+            <use>admin</use><megamenu_mysql4>
+					<class>Cmsmart_Megamenu_Model_Mysql4</class>
+					<entities>
+						<megamenu>
+							<table>admin_menutop</table>
+						</megamenu>
+					</entities>
+				</megamenu_mysql4></adminhtml>
+        <ricardo>
+				<use>admin</use>
+				<args>
+					<frontName>Ricardo</frontName>
+					<module>RicardoJustem_RicardoModel_Testando</module>
+				</args>
+			</ricardo><brand>
+                <use>admin</use>
+                <args>
+                    <module>Ves_Brand</module>
+                    <frontName>brand</frontName>
+                </args>
+            </brand><themesettings>
+				<use>admin</use>
+				<args>
+					<module>Ves_Themesettings</module>
+					<frontName>themesettings</frontName>
+				</args>
+			</themesettings><productlistadmin>
+                <use>admin</use>
+                <args>
+                    <module>Ves_ProductList</module>
+                    <frontName>productlistadmin</frontName>
+                </args>
+            </productlistadmin><marketplace>
                 <use>admin</use>
                 <args>
                     <module>Cybage_Marketplace</module>
                     <frontName>marketplace</frontName>
                 </args>
-            </marketplace></routers>
+            </marketplace><blog_admin>
+                <use>admin</use>
+                <args>
+                    <module>AW_Blog</module>
+                    <frontName>blog_admin</frontName>
+                </args>
+            </blog_admin><ajax>
+				<use>admin</use>
+				<args>
+					<module>Ves_Ajax</module>
+					<frontName>ajax</frontName>
+				</args>
+			</ajax><tinymce5>
+                <use>admin</use>
+                <args>
+                        <module>Meanbee_Tinymce5</module>
+                        <frontName>tinymce5</frontName>
+                </args>
+            </tinymce5></routers>
     <fieldsets>
             <catalog_product_dataflow>
                 <qty>

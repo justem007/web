@@ -5,6 +5,17 @@
 			<version>0.1.0</version>
 		</RicardoJustem_RicardoModel>
 	</modules>
+	<adminhtml>
+		<translate>
+			<modules>
+				<RicardoJustem_RicardoModel>
+					<files>
+						<default>RicardoJustem_RicardoModel.csv</default>
+					</files>
+				</RicardoJustem_RicardoModel>
+			</modules>
+		</translate>
+	</adminhtml>
 	<global>
 		<models>
 			<ricardojustem_ricardomodel>
@@ -25,5 +36,23 @@
 				<class>RicardoJustem_RicardoModel_Helper</class>
 			</ricardojustem_ricardomodel>
 		</helpers>
+        <resources>
+            <RicardoJustem_RicardoModel>
+                <setup>
+                    <module>RicardoJustem_RicardoModel</module>
+                </setup>
+            </RicardoJustem_RicardoModel>
+        </resources>
 	</global>
+	<admin>
+		<routers>
+			<ricardo>
+				<use>admin</use>
+				<args>
+					<frontName>Ricardo</frontName>
+					<module>RicardoJustem_RicardoModel_Testando</module>
+				</args>
+			</ricardo>
+		</routers>
+	</admin>
 </config>

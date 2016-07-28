@@ -162,7 +162,17 @@
                             <action>adminhtml/extension_custom</action>
                         </custom>
                     </children>
-                </extensions></children>
+                </extensions><alekseon_tools translate="title" module="alekseon_mailTransport">
+                    <title>Alekseon Tools</title>
+                    <sort_order>89</sort_order>
+                    <children>
+                        <sent_emails_history>
+                            <title>Sent Emails History</title>
+                            <sort_order>20</sort_order>
+                            <action>adminhtml/mailTransport_sentEmailsHistory</action>                  
+                        </sent_emails_history>
+                    </children>
+                </alekseon_tools></children>
         <title>System</title><sort_order>90</sort_order></system>
     <dashboard translate="title" module="adminhtml">
             <title>Dashboard</title>
@@ -528,7 +538,176 @@
                     <action>adminhtml/newsletter_problem/</action>
                 </problem>
             </children>
-        </newsletter></menu><acl>
+        </newsletter><vesextensions module="ves_megamenu">
+                
+                
+                <children>
+                    <ves_megamenu translate="title" module="ves_megamenu">
+                        <title>Ves Megamenu</title>
+                        <children>
+                            <index module="ves_megamenu">
+                                <title>Manage Menu Items</title>
+                                <sort_order>1</sort_order>
+                                <action>adminhtml/adminhtml_megamenu/index</action>
+                            </index>
+                            
+                            <configuration translate="title" module="ves_megamenu">
+                                <title>Configuration</title>
+                                <sort_order>3</sort_order>
+                                <action>adminhtml/system_config/edit/section/ves_megamenu</action>
+                            </configuration>
+                        </children>
+                    </ves_megamenu>
+                <brand translate="title" module="ves_brand">
+                        <title>Ves Brand</title>
+                        <children>
+                            <addgroup module="ves_brand">
+                                <title>Add Group</title>
+                                <sort_order>0</sort_order>
+                                <action>adminhtml/brandgroup/add</action>
+                            </addgroup>
+                            <brandgroup translate="title" module="ves_brand">
+                                <title>Manage Group Brand</title>
+                                <sort_order>1</sort_order>
+                                <action>adminhtml/brandgroup/index</action>
+                            </brandgroup>
+                            <add module="ves_brand">
+                                <title>Add Brand</title>
+                                <sort_order>2</sort_order>
+                                <action>adminhtml/brand/add</action>
+                            </add>
+                            <brands module="ves_brand">
+                                <title>Manage Brands</title>
+                                <sort_order>3</sort_order>
+                                <action>adminhtml/brand/index</action>
+                            </brands>
+                            
+                         
+                            <configuration translate="title" module="ves_brand">
+                                <title>Configuration</title>
+                                <sort_order>5</sort_order>
+                                <action>adminhtml/system_config/edit/section/ves_brand</action>
+                            </configuration>
+                        </children>
+                    </brand><themesettings translate="title" module="themesettings">
+                    <title>Ves Theme Settings</title>
+                    <children>
+                        <themesettings module="themesettings">
+                            <title>Theme Settings</title>
+                            <sort_order>1</sort_order>
+                            <action>adminhtml/system_config/edit/section/themesettings</action>
+                        </themesettings>
+                        <themesettings_design module="themesettings">
+                            <title>Theme Design</title>
+                            <sort_order>5</sort_order>
+                            <action>adminhtml/system_config/edit/section/themesettings_design</action>
+                        </themesettings_design>
+                        <themesettings_layout module="themesettings">
+                            <title>Theme Layout</title>
+                            <sort_order>10</sort_order>
+                            <action>adminhtml/system_config/edit/section/themesettings_layout</action>
+                        </themesettings_layout>
+                        <themesettings_import module="themesettings">
+                            <title>Import</title>
+                            <sort_order>15</sort_order>
+                            <action>themesettings/adminhtml_install/import</action>
+                        </themesettings_import>
+                        <themesettings_export module="themesettings">
+                            <title>Export</title>
+                            <sort_order>20</sort_order>
+                            <action>themesettings/adminhtml_install/export</action>
+                        </themesettings_export>
+                    </children>
+                </themesettings><productlist module="productlist">
+					<title>Ves Product List</title>
+					<children>
+						<add module="productlist">
+							<title>Add Rule</title>
+							<sort_order>0</sort_order>
+							<action>adminhtml/productlist/new</action>
+						</add>
+						<items module="productlist">
+							<title>Manage Rules</title>
+							<sort_order>10</sort_order>
+							<action>adminhtml/productlist/index</action>
+						</items>
+						<config translate="title">
+							<title>Configuration</title>
+							<sort_order>30</sort_order>
+							<action>adminhtml/system_config/edit/section/productlist</action>
+						</config>
+					</children>
+				</productlist><ajax translate="title" module="ajax">
+                    <title>Ves Ajax</title>
+                    <children>
+                        <ajax module="ajax">
+                            <title>Configuration</title>
+                            <sort_order>1</sort_order>
+                            <action>adminhtml/system_config/edit/section/ajax</action>
+                        </ajax>
+                    </children>
+                </ajax></children>
+            <title>VenusTheme</title><sort_order>51</sort_order></vesextensions><marketplace translate="title" module="marketplace">
+            <title>Marketplace</title>
+            <sort_order>71</sort_order>
+            <children>
+                <seller translate="title" module="marketplace">
+                    <title>Manage Sellers</title>
+                    <sort_order>850</sort_order>
+                    <action>marketplace/adminhtml_seller</action>
+                </seller>
+                <orderby translate="title" module="marketplace">
+                    <title>Orders By Each Seller</title>
+                    <sort_order>860</sort_order>
+                    <action>marketplace/adminhtml_orderby</action>
+                </orderby>
+                <commission translate="title" module="marketplace">
+                    <title>Manage Payments</title>
+                    <sort_order>870</sort_order>
+                    <action>marketplace/adminhtml_commission</action>
+                </commission>
+            </children>
+        </marketplace><blog module="blog">
+            <title>Blog</title>
+            <sort_order>71</sort_order>
+            <children>
+                <new module="blog" translate="title">
+                    <title>Add Post</title>
+                    <sort_order>0</sort_order>
+                    <action>blog_admin/manage_blog/new</action>
+                </new>
+                <posts module="blog" translate="title">
+                    <title>Posts</title>
+                    <sort_order>10</sort_order>
+                    <action>blog_admin/manage_blog/index</action>
+                </posts>
+                <comment module="blog" translate="title">
+                    <title>Comments</title>
+                    <sort_order>20</sort_order>
+                    <action>blog_admin/manage_comment</action>
+                </comment>
+                <cat module="blog">
+                    <title>Categories</title>
+                    <sort_order>30</sort_order>
+                    <action>blog_admin/manage_cat</action>
+                </cat>
+                <settings translate="title" module="blog">
+                    <title>Settings</title>
+                    <action>adminhtml/system_config/edit/section/blog</action>
+                    <sort_order>40</sort_order>
+                </settings>
+            </children>
+        </blog><templates_master>
+            <title>Templates Master</title>
+            <sort_order>71</sort_order>
+            <children>
+                <easytabs translate="title" module="easytabs">
+                    <title>Easy Tabs</title>
+                    <sort_order>540</sort_order>
+                    <action>adminhtml/easytabs_index/index</action>
+                </easytabs>
+            </children>
+        </templates_master></menu><acl>
         <resources>
             <admin>
                 <children>
@@ -669,7 +848,53 @@
                                     </newsletter><oauth translate="title">
                                         <title>OAuth</title>
                                         <sort_order>20</sort_order>
-                                    </oauth></children>
+                                    </oauth><waterleesection ranslate="title" module="waterlee">
+                                        <title>JakeSharp custom title</title>
+                                        <sort_order>100</sort_order>
+                                    </waterleesection><ajaxsearch translate="title" module="ajaxsearch">
+                                        <title>Ajax Search</title>
+                                        <sort_order>50</sort_order>
+                                    </ajaxsearch><ves_megamenu>
+                                            <title>Ves Megamenu</title>
+                                        </ves_megamenu><youamaajaxlogin translate="title">
+                                        <title>YOUAMA Modules</title>
+                                        <sort_order>1</sort_order>
+                                    </youamaajaxlogin><le_sociallogin translate="title" module="le_sociallogin">
+                                        <title>Social Login</title>
+                                    </le_sociallogin><ves_brand>
+                                            <title>Ves Brand</title>
+                                        </ves_brand><alekseon_adminNotification translate="title" module="alekseon_mailTransport">
+                                        <title>Alekseon Notifications</title>
+                                        <sort_order>10</sort_order>
+                                    </alekseon_adminNotification><alekseon_mailTransport translate="title" module="alekseon_mailTransport">
+                                        <title>Mail Transport</title>
+                                        <sort_order>30</sort_order>
+                                    </alekseon_mailTransport><themesettings module="themesettings">
+                                        <title>Theme Settings</title>
+                                        <sort_order>1</sort_order>
+                                        <action>adminhtml/system_config/edit/section/themesettings</action>
+                                    </themesettings><themesettings_design module="themesettings">
+                                        <title>Theme Design</title>
+                                        <sort_order>5</sort_order>
+                                        <action>adminhtml/system_config/edit/section/themesettings_design</action>
+                                    </themesettings_design><themesettings_layout module="themesettings">
+                                        <title>Theme Layout</title>
+                                        <sort_order>10</sort_order>
+                                        <action>adminhtml/system_config/edit/section/themesettings_layout</action>
+                                    </themesettings_layout><productlist>
+										<title>Ves Product List</title>
+									</productlist><marketplace translate="title">
+                                        <title>Marketplace Section</title>
+                                    </marketplace><blog>
+                                        <title>aheadWorks Blog Section</title>
+                                    </blog><ajax>
+                                        <title>Ves Ajax</title>
+                                    </ajax><megamenu translate="title" module="megamenu">
+										<title>Mega menu</title>
+										<sort_order>1</sort_order> 
+                                    </megamenu><tm_easytabs translate="title" module="easytabs">
+                                        <title>Easy Tabs Section</title>
+                                    </tm_easytabs></children>
                             </config><currency translate="title">
                                 
                                 <sort_order>30</sort_order>
@@ -818,7 +1043,16 @@
                                             </edit>
                                         </children>
                                     </rest_attributes></children>
-                            </api></children>
+                            </api><alekseon_tools translate="title" module="alekseon_mailTransport">
+                                <title>Alekseon Tools</title>
+                                <sort_order>89</sort_order>
+                                <children>
+                                    <sent_emails_history>
+                                        <title>Sent Emails History</title>
+                                        <sort_order>20</sort_order>
+                                    </sent_emails_history>
+                                </children>
+                            </alekseon_tools></children>
                     <title>System</title><sort_order>90</sort_order></system>
                 <dashboard translate="title">
                         <title>Dashboard</title>
@@ -1169,11 +1403,182 @@
                    </newsletter><page_cache translate="title" module="pagecache">
                         <title>External Page Cache</title>
                         <sort_order>0</sort_order>
-                    </page_cache></children>
+                    </page_cache><vesextensions module="ves_megamenu">
+                            
+                            
+                            <children>
+                                <ves_megamenu translate="title" module="ves_megamenu">
+                                    <title>Ves Megamenu</title>
+                                    <children>
+                                        <index module="ves_megamenu">
+                                            <title>Manage Menu Items</title>
+                                            <sort_order>1</sort_order>
+                                            <action>adminhtml/adminhtml_megamenu/index</action>
+                                        </index>
+                                        <save module="ves_megamenu">
+                                            <title>Save Menu Item</title>
+                                            <sort_order>1</sort_order>
+                                        </save>
+                                        <delete module="ves_megamenu">
+                                            <title>Delete Menu Item</title>
+                                            <sort_order>1</sort_order>
+                                        </delete>
+                                        <liveedit module="ves_megamenu">
+                                            <title>Live Menu Item Editor</title>
+                                            <sort_order>1</sort_order>
+                                        </liveedit>
+                                        <savewidget module="ves_megamenu">
+                                            <title>Save Megamenu Widget</title>
+                                            <sort_order>1</sort_order>
+                                        </savewidget>
+                                        <importcategories module="ves_megamenu">
+                                            <title>Import Categories</title>
+                                            <sort_order>1</sort_order>
+                                        </importcategories>
+                                        <importmenus module="ves_megamenu">
+                                            <title>Import Menus</title>
+                                            <sort_order>1</sort_order>
+                                        </importmenus>
+                                        <configuration translate="title" module="ves_megamenu">
+                                            <title>Configuration</title>
+                                            <sort_order>3</sort_order>
+                                            <action>adminhtml/system_config/edit/section/ves_megamenu</action>
+                                        </configuration>
+                                    </children>
+                                </ves_megamenu>
+                            <brand translate="title" module="ves_brand">
+                                    <title>Ves Brand</title>
+                                    <children>
+                                        <addgroup module="ves_brand">
+                                            <title>Add Group</title>
+                                            <sort_order>0</sort_order>
+                                        </addgroup>
+                                        <brandgroup translate="title" module="ves_brand">
+                                            <title>Manage Group Brand</title>
+                                            <sort_order>1</sort_order>
+
+                                        </brandgroup>
+                                        <add module="ves_brand">
+                                            <title>Add Brand</title>
+                                            <sort_order>2</sort_order>
+    
+                                        </add>
+                                        <brands module="ves_brand">
+                                            <title>Manage Brands</title>
+                                            <sort_order>3</sort_order>
+               
+                                        </brands>
+                                        
+                                        <configuration translate="title" module="ves_brand">
+                                            <title>Configuration</title>
+                                            <sort_order>5</sort_order>
+                         
+                                        </configuration>
+                                    </children>
+                                </brand><themesettings translate="title" module="themesettings">
+                                <title>Ves Theme Settings</title>
+                                <children>
+                                    <themesettings module="themesettings">
+                                        <title>Theme Settings</title>
+                                        <sort_order>1</sort_order>
+                                        <action>adminhtml/system_config/edit/section/themesettings</action>
+                                    </themesettings>
+                                    <themesettings_design module="themesettings">
+                                        <title>Theme Design</title>
+                                        <sort_order>5</sort_order>
+                                        <action>adminhtml/system_config/edit/section/themesettings_design</action>
+                                    </themesettings_design>
+                                    <themesettings_layout module="themesettings">
+                                        <title>Theme Layout</title>
+                                        <sort_order>10</sort_order>
+                                        <action>adminhtml/system_config/edit/section/themesettings_layout</action>
+                                    </themesettings_layout>
+                                </children>
+                            </themesettings><productlist module="productlist">
+								<title>Ves Product List</title>
+								<sort_order>2</sort_order>s
+								<children>
+									<add module="productlist">
+										<title>Add Rule</title>
+										<sort_order>0</sort_order>
+									</add>
+									<items module="productlist">
+										<title>Manage Rules</title>
+										<sort_order>10</sort_order>
+									</items>
+									<save module="productlist">
+										<title>Save Rules</title>
+										<sort_order>10</sort_order>
+									</save>
+									<delete module="productlist">
+										<title>Delete Rules</title>
+										<sort_order>10</sort_order>
+									</delete>
+
+									<ruleproducts module="productlist">
+										<title>Manage Rule Products</title>
+										<sort_order>20</sort_order>
+									</ruleproducts>
+
+									<config translate="title">
+										<title>Configuration</title>
+										<sort_order>30</sort_order>
+									</config>
+								</children>
+							</productlist><ajax translate="title" module="ajax">
+                                <title>Ves Ajax</title>
+                                <children>
+                                    <ajax module="ajax">
+                                        <title>Configuration</title>
+                                        <sort_order>1</sort_order>
+                                        <action>adminhtml/system_config/edit/section/ajax</action>
+                                    </ajax>
+                                </children>
+                            </ajax></children>
+                        <title>VenusTheme</title><sort_order>51</sort_order></vesextensions><marketplace translate="title" module="marketplace">
+                        <title>Marketplace</title>
+                        <sort_order>100</sort_order>
+                        <children>
+                            <seller translate="title">
+                                <title>Manage Sellers</title>
+                            </seller>
+                            <orderby translate="title">
+                                <title>Orders By Each Seller</title>
+                            </orderby>
+                            <commission translate="title">
+                                <title>Pending Payment and Commission Report</title>
+                            </commission>
+                        </children>
+                    </marketplace><blog>
+                        <title>Blog</title>
+                        <sort_order>70</sort_order>
+                        <children>
+                            <posts>
+                                <title>Manage Posts</title>
+                                <sort_order>0</sort_order>
+                            </posts>
+                            <comment>
+                                <title>Manage Comments</title>
+                                <sort_order>1</sort_order>
+                            </comment>
+                            <cat>
+                                <title>Manage Categories</title>
+                                <sort_order>2</sort_order>
+                            </cat>
+                        </children>
+                    </blog><templates_master>
+                        <children>
+                            <easytabs module="easytabs">
+                                <title>Easy Tabs</title>
+                                <sort_order>540</sort_order>
+                                <action>adminhtml/easytabs_index/index</action>
+                            </easytabs>
+                        </children>
+                    </templates_master></children>
             <title>Magento Admin</title></admin>
         <all>
-                <title>Allow everything</title>
-            </all></resources>
+                
+            <title>Allow Everything</title></all></resources>
     <privilegeSets>
             <default>
                 <view>
@@ -1189,4 +1594,16 @@
                     <descr />
                 </create>
             </default>
-        </privilegeSets></acl></config>
+        </privilegeSets></acl><translate>
+			<modules>
+				<Ves_Megamenu>
+					<files>
+						<default>Ves_Megamenu.csv</default>
+					</files>
+				</Ves_Megamenu>
+			<Ves_Brand>
+					<files>
+						<default>Ves_Brand.csv</default>
+					</files>
+				</Ves_Brand></modules>
+		</translate></config>

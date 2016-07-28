@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config><title>Create Admin User</title><description></description><author>bontos</author><includeMagento>false</includeMagento><executeWithPhpInterpreter>false</executeWithPhpInterpreter><date>2016-01-05 07:18:49</date><params><Username></Username><Password></Password></params></config>
